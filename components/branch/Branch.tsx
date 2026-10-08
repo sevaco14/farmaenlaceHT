@@ -6,20 +6,21 @@ import { Suspense, useEffect, useLayoutEffect, useMemo, useRef, useState } from 
 import type { ReactNode, RefObject } from "react";
 import * as THREE from "three";
 import { Figure, type Activity, type Look } from "./figure";
-import { C, lookFor, type PRODUCT_LOOK } from "./palette";
+import { C, lookFor, type ProductLook } from "./palette";
 import { Box, Cylinder, SurfaceContext, useSurfaces, type Point } from "./primitives";
 
 const FONT_BOLD = "/fonts/archivo-800.woff";
 const FONT_REGULAR = "/fonts/archivo-400.woff";
 
 export type Shelf = { product: string; category: string; stockPct: number };
+export type Message = { id: string; text: string };
 
 export type BranchProps = {
   zone: string;
   product: string;
   category?: string;
   neighbors: Shelf[];
-  messages: string[];
+  messages: Message[];
   queries: number;
   stock: number;
   promo: number;
@@ -232,7 +233,7 @@ function ProductUnit({
 }: {
   index: number;
   x: number;
-  look: (typeof PRODUCT_LOOK)[string];
+  look: ProductLook;
   dropAt: number | null;
   clockStart: RefObject<number | null>;
 }) {
@@ -429,17 +430,17 @@ function Pill({ code, text, tone }: { code: string; text: string; tone: Tone }) 
   );
 }
 
-function Bubbles({ messages, active }: { messages: string[]; active: boolean }) {
+function Bubbles({ messages, active }: { messages: Message[]; active: boolean }) {
   if (!active || messages.length === 0) return null;
   return (
     <div className="chat-stream" aria-hidden="true">
       {messages
         .slice(0, 2)
         .reverse()
-        .map((text) => (
-          <p key={text} className="chat-bubble">
+        .map((message) => (
+          <p key={message.id} className="chat-bubble">
             <b>WA</b>
-            {text}
+            {message.text}
           </p>
         ))}
     </div>

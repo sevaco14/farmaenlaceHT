@@ -249,7 +249,9 @@ async function step(ctx: MutationCtx, tick: number) {
       const heat = row.heat + clamp(row.heatTarget - row.heat, -0.08, 0.16);
       const inbound = poisson(row.baseRate * heat * (promo ? 0.85 : 1));
       const waRate = row.waRate * 0.75 + inbound * 0.25;
-      const sold = poisson(row.salesRate * (0.6 + 0.5 * heat) * (promo ? 1.25 : 1));
+      const shelf = row.onHand / row.target;
+      const findable = shelf < 0.2 ? (shelf / 0.2) ** 2 : 1;
+      const sold = poisson(row.salesRate * (0.6 + 0.5 * heat) * (promo ? 1.25 : 1) * findable);
       let onHand = Math.max(0, row.onHand - sold);
 
       if (heat < 1.15 && onHand / row.target < 0.4 && Math.random() < 0.3) {
@@ -261,7 +263,11 @@ async function step(ctx: MutationCtx, tick: number) {
       const pct = stockPct({ onHand, target: row.target });
       const nowBand = band(pct);
       if (nowBand > row.lastBand && heat >= 1.15) {
-        await logEvent(ctx, tick, city, "INV", row.product, `Stock de ${row.product} en ${label} baja al ${pct}%.`);
+        const text =
+          nowBand === 3
+            ? `Quiebre inminente: ${row.product} al ${pct}% en ${label}. Clientes se van sin producto.`
+            : `Stock de ${row.product} en ${label} baja al ${pct}%.`;
+        await logEvent(ctx, tick, city, "INV", row.product, text);
       }
       const heatTarget = row.heatTarget > 1 && heat >= row.heatTarget - 0.05 && Math.random() < 0.01 ? 1 : row.heatTarget;
       const patch = {
@@ -362,7 +368,7 @@ export async function resetWorld(ctx: MutationCtx) {
         target,
         baseRate,
         waRate: baseRate * heat,
-        salesRate: Math.round(target * (trending ? 0.0094 : 0.006) * 100) / 100,
+        salesRate: Math.round(target * (trending ? 0.0075 : 0.006) * 100) / 100,
         heat,
         heatTarget: trending ? (index === 0 ? 3 : 2.7) : 1,
         trend,

@@ -570,7 +570,7 @@
   @media (max-width: 860px) {
     .live {
       inset-block-start: auto;
-      inset-block-end: 4.5rem;
+      inset-block-end: 7rem;
       inline-size: auto;
       inset-inline-start: clamp(1rem, 2vw, 1.75rem);
     }

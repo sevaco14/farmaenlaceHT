@@ -63,7 +63,7 @@ export const PRODUCT_LOOK: Record<string, { body: string; band: string; shape: "
   "Suero oral": { body: "#9fd6d6", band: "#ffffff", shape: "box" },
 };
 
-type ProductLook = (typeof PRODUCT_LOOK)[string];
+export type ProductLook = { body: string; band: string; shape: "box" | "tube" | "bottle" };
 
 const CATEGORY_LOOK: Record<string, ProductLook> = {
   vitaminas: { body: "#f2b045", band: "#ffffff", shape: "box" },

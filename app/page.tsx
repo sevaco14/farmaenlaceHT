@@ -22,12 +22,14 @@ const CITIES = [
 ] as const;
 
 const HEARTBEAT_MS = 60_000;
-const clockFormat = new Intl.DateTimeFormat("es-EC", {
-  hour: "2-digit",
-  minute: "2-digit",
-  hour12: false,
-  timeZone: "America/Guayaquil",
-});
+const QUITO_OFFSET_MS = -5 * 60 * 60 * 1000;
+
+function formatClock(ms: number) {
+  const shifted = new Date(ms + QUITO_OFFSET_MS);
+  const hours = String(shifted.getUTCHours()).padStart(2, "0");
+  const minutes = String(shifted.getUTCMinutes()).padStart(2, "0");
+  return `${hours}:${minutes}`;
+}
 
 function messageText(text: string) {
   const quoted = text.match(/“([^”]+)”/)?.[1];
@@ -153,7 +155,7 @@ export default function Page() {
   const zoneEvents = (world?.events ?? []).filter((event) => event.city === focus);
   const messages = zoneEvents
     .filter((event) => event.code === "WA" && event.product === product)
-    .map((event) => messageText(event.text));
+    .map((event) => ({ id: event.id, text: messageText(event.text) }));
   const clock = world?.clock ?? null;
 
   useEffect(() => {
@@ -461,7 +463,7 @@ export default function Page() {
               <p id="live-title" className="live-clock" data-running={clock?.running ?? false}>
                 <span className="live-dot" aria-hidden="true" />
                 {clock ? (clock.running ? "En vivo" : "En pausa") : "Conectando"}
-                {clock && <time className="num">{clockFormat.format(clock.simTime)}</time>}
+                {clock && <time className="num">{formatClock(clock.simTime)}</time>}
               </p>
               <div className="live-actions">
                 <button
@@ -492,7 +494,7 @@ export default function Page() {
             <ol className="live-feed" role="list" aria-live="off">
               {zoneEvents.slice(0, 5).map((event) => (
                 <li key={event.id} className="live-event" data-code={event.code}>
-                  <time className="num">{clockFormat.format(event.simTime)}</time>
+                  <time className="num">{formatClock(event.simTime)}</time>
                   <b>{event.code}</b>
                   <span>{event.text}</span>
                 </li>
