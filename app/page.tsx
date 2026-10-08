@@ -1,7 +1,7 @@
 "use client";
 
 import { useAction, useMutation, useQuery } from "convex/react";
-import { Check, PenLine, RotateCcw, X } from "lucide-react";
+import { Check, FastForward, Pause, PenLine, Play, RotateCcw, Sparkles, X } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import type { ReactNode } from "react";
@@ -16,10 +16,23 @@ const Branch = dynamic(() => import("../components/branch/Branch").then((mod) =>
 });
 
 const CITIES = [
-  { id: "guayaquil", code: "GYE", label: "Guayaquil", product: "Vitamina C" },
-  { id: "quito", code: "UIO", label: "Quito", product: "Protector solar" },
-  { id: "cuenca", code: "CUE", label: "Cuenca", product: "Alcohol 70%" },
+  { id: "guayaquil", code: "GYE", label: "Guayaquil" },
+  { id: "quito", code: "UIO", label: "Quito" },
+  { id: "cuenca", code: "CUE", label: "Cuenca" },
 ] as const;
+
+const HEARTBEAT_MS = 60_000;
+const clockFormat = new Intl.DateTimeFormat("es-EC", {
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+  timeZone: "America/Guayaquil",
+});
+
+function messageText(text: string) {
+  const quoted = text.match(/“([^”]+)”/)?.[1];
+  return quoted ?? text.split(" · ")[0];
+}
 
 type CityId = (typeof CITIES)[number]["id"];
 type Status = "pending" | "approved" | "rejected";
@@ -34,6 +47,9 @@ type Order = {
   status: Status;
   proposedBy: string;
   decidedBy: string | null;
+  restockUnits: number | null;
+  promoDays: number | null;
+  createdAt: number;
 };
 
 const REDUCED = "(prefers-reduced-motion: reduce)";
@@ -56,9 +72,9 @@ function orderCode(order: Order, cityCode: string) {
   return `ORD-${cityCode}-${String(100 + (hash % 900)).padStart(4, "0")}`;
 }
 
-function orderTerms(headline: string) {
-  const units = headline.match(/(\d[\d.]*)\s*unidades/)?.[1] ?? null;
-  const days = headline.match(/(\d+)\s*días/)?.[1] ?? null;
+function orderTerms(order: Order) {
+  const units = order.restockUnits !== null ? String(order.restockUnits) : (order.headline.match(/(\d[\d.]*)\s*unidades/)?.[1] ?? null);
+  const days = order.promoDays !== null ? String(order.promoDays) : (order.headline.match(/(\d+)\s*días/)?.[1] ?? null);
   return { units, days };
 }
 
@@ -75,30 +91,35 @@ function promoState(level: number): "none" | "season" | "live" {
 }
 
 export default function Page() {
-  const ensureScenario = useMutation(api.comercial.ensureScenario);
+  const heartbeat = useMutation(api.live.heartbeat);
+  const setRunning = useMutation(api.live.setRunning);
+  const setFast = useMutation(api.live.setFast);
+  const advance = useMutation(api.live.advance);
   const resetScenario = useMutation(api.comercial.resetScenario);
   const decide = useMutation(api.comercial.decide);
   const analyzeCity = useAction(api.agents.run.analyzeCity);
   const board = useQuery(api.comercial.board, {});
+  const world = useQuery(api.live.world, {});
   const [focus, setFocus] = useState<CityId>("guayaquil");
-  const [busy, setBusy] = useState<"approve" | "reject" | "reset" | "agents" | null>(null);
+  const [busy, setBusy] = useState<"approve" | "reject" | "reset" | "agents" | "advance" | null>(null);
   const [agentMode, setAgentMode] = useState<"bedrock" | "fallback" | null>(null);
-  const analyzedCities = useRef<Set<string>>(new Set());
   const [error, setError] = useState<string | null>(null);
   const [announcement, setAnnouncement] = useState("");
   const reduced = useReducedMotion();
   const stockBefore = useRef<Record<string, number>>({});
 
   useEffect(() => {
-    void ensureScenario();
-  }, [ensureScenario]);
+    void heartbeat();
+    const id = window.setInterval(() => void heartbeat(), HEARTBEAT_MS);
+    return () => window.clearInterval(id);
+  }, [heartbeat]);
 
-  async function runAgents(cityId: CityId) {
+  async function runAgents(cityId: CityId, target: string | undefined) {
     const meta = CITIES.find((item) => item.id === cityId) ?? CITIES[0];
     setBusy("agents");
     setError(null);
     try {
-      const result = await analyzeCity({ city: cityId, product: meta.product });
+      const result = await analyzeCity({ city: cityId, product: target });
       setAgentMode(result.mode);
       if (result.error && result.mode === "fallback") {
         setError(`Agentes en modo respaldo: ${result.error}`);
@@ -116,36 +137,35 @@ export default function Page() {
     }
   }
 
-  useEffect(() => {
-    if (board === undefined) return;
-    if (analyzedCities.current.has(focus)) return;
-    analyzedCities.current.add(focus);
-    void runAgents(focus);
-  }, [board, focus]);
-
   const city = CITIES.find((item) => item.id === focus) ?? CITIES[0];
   const signals: Signal[] = (board?.signals ?? []).filter((signal) => signal.city === focus);
-  const wa = signals.find((signal) => signal.source === "whatsapp");
-  const inv = signals.find((signal) => signal.source === "inventario");
-  const pro = signals.find((signal) => signal.source === "promocion");
-  const product = wa?.product ?? city.product;
-  const orders: Order[] = (board?.recommendations ?? []).filter((item) => item.city === focus);
-  const order =
-    orders.find((item) => item.status === "pending") ??
-    orders.find((item) => item.status === "approved") ??
-    orders.find((item) => item.status === "rejected") ??
-    null;
+  const orders: Order[] = (board?.recommendations ?? [])
+    .filter((item) => item.city === focus)
+    .sort((a, b) => b.createdAt - a.createdAt);
+  const order = orders.find((item) => item.status === "pending") ?? orders[0] ?? null;
+  const zone = world?.cities.find((item) => item.city === focus);
+  const product = order?.product ?? signals[0]?.product ?? zone?.shelves[0]?.product ?? "";
+  const wa = signals.find((signal) => signal.source === "whatsapp" && signal.product === product);
+  const inv = signals.find((signal) => signal.source === "inventario" && signal.product === product);
+  const pro = signals.find((signal) => signal.source === "promocion" && signal.product === product);
+  const heroShelf = zone?.shelves.find((shelf) => shelf.product === product);
+  const neighbors = (zone?.shelves ?? []).filter((shelf) => shelf.product !== product).slice(0, 2);
+  const zoneEvents = (world?.events ?? []).filter((event) => event.city === focus);
+  const messages = zoneEvents
+    .filter((event) => event.code === "WA" && event.product === product)
+    .map((event) => messageText(event.text));
+  const clock = world?.clock ?? null;
 
   useEffect(() => {
     if (order?.status === "pending" && inv) stockBefore.current[focus] = inv.level;
   }, [order?.status, inv, focus]);
 
   function routeState(id: CityId): "pending" | "approved" | "rejected" | "clear" {
-    const rows = (board?.recommendations ?? []).filter((item) => item.city === id);
+    const rows = (board?.recommendations ?? [])
+      .filter((item) => item.city === id)
+      .sort((a, b) => b.createdAt - a.createdAt);
     if (rows.some((item) => item.status === "pending")) return "pending";
-    if (rows.some((item) => item.status === "approved")) return "approved";
-    if (rows.some((item) => item.status === "rejected")) return "rejected";
-    return "clear";
+    return rows[0]?.status ?? "clear";
   }
 
   async function onDecide(decision: "approve" | "reject") {
@@ -163,16 +183,28 @@ export default function Page() {
     }
   }
 
+  async function onAdvance() {
+    setBusy("advance");
+    setError(null);
+    try {
+      await advance();
+      setAnnouncement("La simulación avanzó una hora.");
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : "No se pudo avanzar la simulación.");
+    } finally {
+      setBusy(null);
+    }
+  }
+
   async function onReset() {
     setBusy("reset");
     setError(null);
     try {
       await resetScenario();
       stockBefore.current = {};
-      analyzedCities.current = new Set();
       setAgentMode(null);
       setFocus("guayaquil");
-      setAnnouncement("Demo reiniciada. Hay una orden por firmar en Guayaquil.");
+      setAnnouncement("Demo reiniciada. Las zonas empiezan a moverse de nuevo.");
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "No se pudo reiniciar la demo.");
     } finally {
@@ -180,7 +212,7 @@ export default function Page() {
     }
   }
 
-  const loading = board === undefined || busy === "agents";
+  const loading = board === undefined || world === undefined || busy === "agents";
   const status: Status | "none" = order?.status ?? "none";
   const released = status === "approved";
 
@@ -231,18 +263,16 @@ export default function Page() {
           <button
             type="button"
             className="ghost"
-            onClick={() => {
-              analyzedCities.current.delete(focus);
-              void runAgents(focus);
-            }}
-            disabled={busy !== null}
+            onClick={() => void runAgents(focus, product || undefined)}
+            disabled={busy !== null || !product}
           >
+            <Sparkles aria-hidden="true" size={16} strokeWidth={2} />
             <span className="ghost-label">
               {busy === "agents"
                 ? "Agentes analizando…"
                 : agentMode === "bedrock"
                   ? "Reanalizar (Bedrock)"
-                  : "Reanalizar zona"}
+                  : "Analizar con agentes"}
             </span>
           </button>
           <button type="button" className="ghost" onClick={() => void onReset()} disabled={busy !== null}>
@@ -374,8 +404,9 @@ export default function Page() {
                       <small>Primera línea</small>
                     </div>
                     <p className="sign-done">
-                      <b>Firmada por el encargado de zona.</b> Reabastecimiento de {orderTerms(order.headline).units ?? "las"}{" "}
-                      unidades en camino y promo SmartClub activa por {orderTerms(order.headline).days ?? "7"} días.
+                      <b>Firmada por el encargado de zona.</b> Reabastecimiento de {orderTerms(order).units ?? "las"} unidades
+                      de {order.product} en camino
+                      {orderTerms(order).days ? ` y promo SmartClub activa por ${orderTerms(order).days} días.` : "."}
                     </p>
                   </>
                 )}
@@ -403,7 +434,10 @@ export default function Page() {
           >
             <Branch
               zone={city.id}
-              product={product}
+              product={product || "Sin producto"}
+              category={heroShelf?.category}
+              neighbors={neighbors}
+              messages={messages}
               queries={wa?.level ?? 0}
               stock={inv?.level ?? 0}
               promo={pro?.level ?? 0}
@@ -420,7 +454,54 @@ export default function Page() {
               {status === "rejected" && `Orden rechazada. ${product} sigue en observación.`}
               {status === "none" && (loading ? "Leyendo señales de la zona…" : `Sin alertas. ${product} en observación.`)}
             </p>
+            {zone?.trend && <p className="stage-trend">Contexto: {zone.trend}</p>}
           </div>
+          <aside className="live" aria-labelledby="live-title">
+            <div className="live-bar">
+              <p id="live-title" className="live-clock" data-running={clock?.running ?? false}>
+                <span className="live-dot" aria-hidden="true" />
+                {clock ? (clock.running ? "En vivo" : "En pausa") : "Conectando"}
+                {clock && <time className="num">{clockFormat.format(clock.simTime)}</time>}
+              </p>
+              <div className="live-actions">
+                <button
+                  type="button"
+                  className="live-btn"
+                  onClick={() => void setRunning({ running: !(clock?.running ?? true) })}
+                  disabled={!clock}
+                  aria-label={clock?.running ? "Pausar simulación" : "Reanudar simulación"}
+                >
+                  {clock?.running ? <Pause aria-hidden="true" size={14} /> : <Play aria-hidden="true" size={14} />}
+                </button>
+                <button
+                  type="button"
+                  className="live-btn"
+                  aria-pressed={clock?.fast ?? false}
+                  onClick={() => void setFast({ fast: !(clock?.fast ?? false) })}
+                  disabled={!clock}
+                  aria-label="Acelerar simulación"
+                >
+                  <FastForward aria-hidden="true" size={14} />
+                  <span>×3</span>
+                </button>
+                <button type="button" className="live-btn" onClick={() => void onAdvance()} disabled={!clock || busy !== null}>
+                  <span>{busy === "advance" ? "…" : "+1 h"}</span>
+                </button>
+              </div>
+            </div>
+            <ol className="live-feed" role="list" aria-live="off">
+              {zoneEvents.slice(0, 5).map((event) => (
+                <li key={event.id} className="live-event" data-code={event.code}>
+                  <time className="num">{clockFormat.format(event.simTime)}</time>
+                  <b>{event.code}</b>
+                  <span>{event.text}</span>
+                </li>
+              ))}
+              {world !== undefined && zoneEvents.length === 0 && (
+                <li className="live-event live-empty">Sin movimientos todavía en {city.label}.</li>
+              )}
+            </ol>
+          </aside>
           <footer className="manifest">
             <p className="manifest-claim">Antes de perder el stock y la venta.</p>
             <p className="manifest-scale">
@@ -439,7 +520,7 @@ export default function Page() {
 }
 
 function OrderFields({ order, city }: { order: Order; city: string }) {
-  const { units, days } = orderTerms(order.headline);
+  const { units, days } = orderTerms(order);
   return (
     <dl className="order-fields">
       <div>
