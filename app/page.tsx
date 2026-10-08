@@ -165,7 +165,7 @@ export default function Page() {
       .filter((item) => item.city === id)
       .sort((a, b) => b.createdAt - a.createdAt);
     if (rows.some((item) => item.status === "pending")) return "pending";
-    return rows[0]?.status ?? "clear";
+    return rows.at(0)?.status ?? "clear";
   }
 
   async function onDecide(decision: "approve" | "reject") {
