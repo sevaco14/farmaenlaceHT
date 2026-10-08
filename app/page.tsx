@@ -142,7 +142,7 @@ export default function Page() {
   const orders: Order[] = (board?.recommendations ?? [])
     .filter((item) => item.city === focus)
     .sort((a, b) => b.createdAt - a.createdAt);
-  const order = orders.find((item) => item.status === "pending") ?? orders[0] ?? null;
+  const order = orders.find((item) => item.status === "pending") ?? orders.at(0) ?? null;
   const zone = world?.cities.find((item) => item.city === focus);
   const product = order?.product ?? signals[0]?.product ?? zone?.shelves[0]?.product ?? "";
   const wa = signals.find((signal) => signal.source === "whatsapp" && signal.product === product);
@@ -302,7 +302,7 @@ export default function Page() {
                   </>
                 )}
                 {status === "rejected" && "Rechazada"}
-                {status === "none" && (loading ? "Leyendo" : "En observación")}
+                {!order && (loading ? "Leyendo" : "En observación")}
               </p>
             </header>
 
@@ -415,7 +415,7 @@ export default function Page() {
                     <b>Rechazada por el encargado de zona.</b> Los agentes siguen observando la zona.
                   </p>
                 )}
-                {status === "none" && !loading && <p className="sign-done">Sin orden pendiente en {city.label}.</p>}
+                {!order && !loading && <p className="sign-done">Sin orden pendiente en {city.label}.</p>}
                 {error && (
                   <p className="sign-error" role="alert">
                     {error}
@@ -452,7 +452,7 @@ export default function Page() {
               {status === "pending" && `Tres agentes cruzan señales sobre ${product}.`}
               {status === "approved" && `Orden liberada: reabasteciendo ${product}.`}
               {status === "rejected" && `Orden rechazada. ${product} sigue en observación.`}
-              {status === "none" && (loading ? "Leyendo señales de la zona…" : `Sin alertas. ${product} en observación.`)}
+              {!order && (loading ? "Leyendo señales de la zona…" : `Sin alertas. ${product} en observación.`)}
             </p>
             {zone?.trend && <p className="stage-trend">Contexto: {zone.trend}</p>}
           </div>
