@@ -1,11 +1,13 @@
 import type { ReactNode } from "react";
-import { Archivo } from "next/font/google";
+import localFont from "next/font/local";
 import { ConvexClientProvider } from "./ConvexClientProvider";
 import "./globals.css";
 
-const archivo = Archivo({
-  subsets: ["latin"],
-  axes: ["wdth"],
+const archivo = localFont({
+  src: [
+    { path: "../public/fonts/archivo-400.woff", weight: "400", style: "normal" },
+    { path: "../public/fonts/archivo-800.woff", weight: "800", style: "normal" },
+  ],
   variable: "--font-archivo",
   display: "swap",
 });

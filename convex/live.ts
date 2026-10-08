@@ -148,9 +148,15 @@ async function logEvent(
 async function pendingFor(ctx: MutationCtx, city: string) {
   const rows = await ctx.db
     .query("recommendations")
-    .withIndex("by_status", (q) => q.eq("status", "pending"))
+    .withIndex("by_city_and_status", (q) => q.eq("city", city).eq("status", "pending"))
     .take(20);
-  return rows.find((row) => row.city === city) ?? null;
+  let pending: Doc<"recommendations"> | null = null;
+  for (const row of rows) {
+    if (Date.now() >= (row.expiresAt ?? row._creationTime + 15 * 60_000)) {
+      await ctx.db.patch(row._id, { status: "expired", decidedAt: Date.now() });
+    } else if (!pending) pending = row;
+  }
+  return pending;
 }
 
 async function writeSignals(ctx: MutationCtx, row: Row, tick: number) {
@@ -208,17 +214,24 @@ async function maybePropose(ctx: MutationCtx, city: City, row: Row, tick: number
     ? `Hay un aumento inusual de consultas sobre ${row.product} en ${label} (×${lift.toFixed(1)}). El stock está al ${pct}% y no hay promoción activa en esa zona.${context} Recomiendo reabastecer ${units} unidades y activar una promo local por 7 días.`
     : `El stock de ${row.product} en ${label} está al ${pct}% y la demanda sigue.${context} Recomiendo reabastecer ${units} unidades.`;
 
-  await ctx.db.insert("recommendations", {
+  const recommendationId = await ctx.db.insert("recommendations", {
     city,
     product: row.product,
     headline,
     detail,
     status: "pending",
-    proposedBy: "analista-comercial",
+    proposedBy: "reglas-demo",
     decidedBy: null,
     restockUnits: units,
     promoDays: withPromo ? 7 : undefined,
+    sku: row.sku,
+    liveStockId: row._id,
+    inventoryOnHand: row.onHand,
+    inventoryTarget: row.target,
+    decisionRevision: row.decisionRevision ?? 0,
+    expiresAt: Date.now() + 15 * 60_000,
   });
+  await ctx.scheduler.runAfter(15 * 60_000, internal.comercial.expireRecommendation, { recommendationId });
   await logEvent(ctx, tick, city, "ORD", row.product, `Nueva orden por firmar: ${units} u. de ${row.product}${withPromo ? " + promo 7 días" : ""}.`);
 }
 
@@ -417,18 +430,21 @@ export async function applyDecision(
   decision: "approve" | "reject",
 ) {
   const city = asCity(recommendation.city);
-  if (!city) return;
+  if (!city) return false;
   const clock = await getClock(ctx);
   const tick = clock?.tick ?? 0;
   const rows = await ctx.db
     .query("liveStock")
     .withIndex("by_city", (q) => q.eq("city", city))
     .take(20);
-  const row = rows.find((item) => item.product === recommendation.product);
-  if (!row) return;
+  const row = recommendation.liveStockId
+    ? rows.find((item) => item._id === recommendation.liveStockId)
+    : rows.find((item) => item.product === recommendation.product);
+  if (!row) return false;
 
   if (decision === "approve") {
-    const units = recommendation.restockUnits ?? 500;
+    const units = Math.max(0, Math.min(recommendation.restockUnits ?? 0, Math.ceil(row.target - row.onHand)));
+    if (units === 0) return false;
     const days = recommendation.promoDays ?? 0;
     const onHand = row.onHand + units;
     await ctx.db.patch(row._id, {
@@ -438,15 +454,17 @@ export async function applyDecision(
       trend: null,
       snoozeUntil: tick + 60,
       lastBand: band(stockPct({ onHand, target: row.target })),
+      decisionRevision: (row.decisionRevision ?? 0) + 1,
     });
     await logEvent(ctx, tick, city, "ORD", row.product, `Orden liberada por primera línea: +${units} u. de ${row.product}${days > 0 ? " y promo SmartClub 7 días" : ""}.`);
   } else {
-    await ctx.db.patch(row._id, { snoozeUntil: tick + 36 });
+    await ctx.db.patch(row._id, { snoozeUntil: tick + 36, decisionRevision: (row.decisionRevision ?? 0) + 1 });
     await logEvent(ctx, tick, city, "ORD", row.product, `Orden de ${row.product} rechazada. Los agentes siguen observando.`);
   }
 
   const updated = await ctx.db.get(row._id);
   if (updated) await writeSignals(ctx, updated, tick);
+  return true;
 }
 
 export const tick = internalMutation({
@@ -530,6 +548,10 @@ const shelfValidator = v.object({
   product: v.string(),
   category: v.string(),
   stockPct: v.number(),
+  waLevel: v.number(),
+  waPerHour: v.number(),
+  promoLevel: v.number(),
+  promoDaysRemaining: v.number(),
   trend: v.union(v.string(), v.null()),
 });
 
@@ -574,11 +596,15 @@ export const world = query({
       cities.push({
         city,
         trend: rows.find((row) => row.trend)?.trend ?? null,
-        shelves: ranked.slice(0, 6).map((row) => ({
+        shelves: ranked.map((row) => ({
           sku: row.sku,
           product: row.product,
           category: row.category,
           stockPct: stockPct(row),
+          waLevel: clamp(Math.round(20 + (liftOf(row) - 1) * 58), 0, 100),
+          waPerHour: Math.round(row.waRate * 6),
+          promoLevel: promoLive(row, tick) ? 100 : row.seasonPromo ? 60 : 0,
+          promoDaysRemaining: promoLive(row, tick) ? Math.ceil((row.promoUntil - tick) / (24 * 6)) : row.seasonPromo ? 7 : 0,
           trend: row.trend,
         })),
       });

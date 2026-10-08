@@ -28,22 +28,30 @@ export const resolveSku = internalQuery({
     product: v.string(),
   }),
   handler: async (ctx, args) => {
+    const live = await ctx.db
+      .query("liveStock")
+      .withIndex("by_city", (q) => q.eq("city", args.city))
+      .take(20);
+    const product = args.product?.trim();
     if (args.sku) {
       const row = await ctx.db
         .query("catalogItems")
         .withIndex("by_sku", (q) => q.eq("sku", args.sku!))
         .unique();
-      return { sku: args.sku, product: row?.name ?? args.product ?? args.sku };
+      const stock = live.find((item) => item.sku === args.sku);
+      if (!row && !stock) throw new Error("El SKU no existe en el catálogo del escenario.");
+      if (live.length > 0 && !stock) throw new Error("El producto no pertenece al inventario de esta ciudad.");
+      const name = stock?.product ?? row!.name;
+      if (product && product.toLowerCase() !== name.toLowerCase()) {
+        throw new Error("El producto no coincide con el SKU seleccionado.");
+      }
+      return { sku: args.sku, product: name };
     }
-    const product = args.product?.trim();
-    const live = await ctx.db
-      .query("liveStock")
-      .withIndex("by_city", (q) => q.eq("city", args.city))
-      .take(20);
     if (live.length > 0) {
       const named = product
         ? live.find((row) => row.product.toLowerCase() === product.toLowerCase())
         : undefined;
+      if (product && !named) throw new Error("El producto no pertenece al inventario de esta ciudad.");
       const hottest = [...live].sort(
         (a, b) => b.waRate / b.baseRate * (1 - b.onHand / b.target) - a.waRate / a.baseRate * (1 - a.onHand / a.target),
       )[0];
@@ -52,10 +60,9 @@ export const resolveSku = internalQuery({
     }
     if (product) {
       const catalog = await ctx.db.query("catalogItems").withIndex("by_sku").take(80);
-      const match =
-        catalog.find((item) => item.name.toLowerCase() === product.toLowerCase()) ??
-        catalog.find((item) => item.name.toLowerCase().includes(product.toLowerCase()));
+      const match = catalog.find((item) => item.name.toLowerCase() === product.toLowerCase());
       if (match) return { sku: match.sku, product: match.name };
+      throw new Error("No existe un producto con ese nombre en el catálogo.");
     }
     const fact = await ctx.db
       .query("insightFacts")
@@ -63,7 +70,7 @@ export const resolveSku = internalQuery({
       .take(20);
     const hero = fact.sort((a, b) => b.score - a.score)[0];
     if (hero) return { sku: hero.sku, product: hero.product };
-    return { sku: "FE-VC500", product: product ?? "Vitamina C" };
+    throw new Error("No hay inventario disponible. Inicializa el escenario de demostración.");
   },
 });
 
@@ -75,6 +82,9 @@ export const whatsappMetrics = internalQuery({
     product: v.string(),
     waRecent7: v.number(),
     waPrior21: v.number(),
+    metricWindow: v.union(v.literal("hour"), v.literal("7days")),
+    observedCount: v.number(),
+    baselineCount: v.number(),
     lift: v.number(),
     sampleMessages: v.array(v.string()),
     newsTitles: v.array(v.string()),
@@ -91,9 +101,13 @@ export const whatsappMetrics = internalQuery({
         city: args.city,
         sku: args.sku,
         product: live.product,
-        waRecent7: Math.round(live.waRate * 6),
-        waPrior21: Math.round(live.baseRate * 18),
-        lift: Math.round((live.waRate / live.baseRate) * 100) / 100,
+        // These compatibility fields are projections, not historical observations.
+        waRecent7: Math.round(live.waRate * 6 * 24 * 7),
+        waPrior21: Math.round(live.baseRate * 6 * 24 * 21),
+        metricWindow: "hour" as const,
+        observedCount: Math.round(live.waRate * 6),
+        baselineCount: Math.round(live.baseRate * 6),
+        lift: live.baseRate > 0 ? Math.round((live.waRate / live.baseRate) * 100) / 100 : 1,
         sampleMessages: events
           .filter((row) => row.code === "WA" && row.product === live.product)
           .slice(0, 5)
@@ -111,8 +125,8 @@ export const whatsappMetrics = internalQuery({
 
     const daily = await ctx.db
       .query("waDaily")
-      .withIndex("by_city", (q) => q.eq("city", args.city))
-      .filter((q) => q.eq(q.field("sku"), args.sku))
+      .withIndex("by_city_and_sku_and_day", (q) => q.eq("city", args.city).eq("sku", args.sku))
+      .order("desc")
       .take(40);
 
     let waRecent7 = fact?.waRecent7 ?? 0;
@@ -124,12 +138,12 @@ export const whatsappMetrics = internalQuery({
         const offset = Math.floor(
           (Date.parse(`${row.day}T12:00:00-05:00`) - (AS_OF - 28 * DAY_MS)) / DAY_MS,
         );
-        if (offset >= 21) waRecent7 += row.inbound;
-        else if (offset >= 0) waPrior21 += row.inbound;
+        if (offset >= 21 && offset < 28) waRecent7 += row.inbound;
+        else if (offset >= 0 && offset < 21) waPrior21 += row.inbound;
       }
     }
     const expected = waPrior21 > 0 ? waPrior21 / 3 : 1;
-    const lift = fact?.lift ?? (expected > 0 ? waRecent7 / expected : 1);
+    const lift = daily.length > 0 ? waRecent7 / expected : fact?.lift ?? waRecent7 / expected;
 
     const messages = await ctx.db
       .query("waMessages")
@@ -138,7 +152,9 @@ export const whatsappMetrics = internalQuery({
       )
       .take(6);
 
-    const news = await ctx.db.query("newsItems").take(40);
+    const news = await ctx.db.query("newsItems")
+      .withIndex("by_published", (q) => q.gte("publishedAt", AS_OF - 21 * DAY_MS).lte("publishedAt", AS_OF))
+      .order("desc").take(40);
     const newsTitles = news
       .filter(
         (item) =>
@@ -161,6 +177,9 @@ export const whatsappMetrics = internalQuery({
       product: catalog?.name ?? fact?.product ?? args.sku,
       waRecent7,
       waPrior21,
+      metricWindow: "7days" as const,
+      observedCount: waRecent7,
+      baselineCount: Math.round(waPrior21 / 3),
       lift,
       sampleMessages: messages.map((m) => m.text).slice(0, 5),
       newsTitles,
@@ -177,6 +196,8 @@ export const inventoryMetrics = internalQuery({
     onHand: v.number(),
     target: v.number(),
     stockPct: v.number(),
+    liveStockId: v.union(v.id("liveStock"), v.null()),
+    decisionRevision: v.number(),
     criticalBranches: v.array(
       v.object({ branchCode: v.string(), onHand: v.number(), target: v.number() }),
     ),
@@ -190,7 +211,9 @@ export const inventoryMetrics = internalQuery({
         product: live.product,
         onHand: live.onHand,
         target: live.target,
-        stockPct: Math.round((100 * live.onHand) / live.target),
+        stockPct: live.target > 0 ? Math.round((100 * live.onHand) / live.target) : 0,
+        liveStockId: live._id,
+        decisionRevision: live.decisionRevision ?? 0,
         criticalBranches: [],
       };
     }
@@ -215,8 +238,7 @@ export const inventoryMetrics = internalQuery({
       onHand = rows.reduce((sum, row) => sum + row.onHand, 0);
       target = rows.reduce((sum, row) => sum + row.target, 0);
     }
-    const stockPct =
-      fact?.stockPct ?? (target > 0 ? Math.round((onHand / target) * 100) : 0);
+    const stockPct = target > 0 ? Math.round((onHand / target) * 100) : 0;
 
     const criticalBranches = rows
       .map((row) => ({
@@ -240,6 +262,8 @@ export const inventoryMetrics = internalQuery({
       onHand,
       target,
       stockPct,
+      liveStockId: null,
+      decisionRevision: 0,
       criticalBranches,
     };
   },
@@ -291,24 +315,15 @@ export const promoMetrics = internalQuery({
       };
     }
 
-    const fact = await ctx.db
-      .query("insightFacts")
-      .withIndex("by_city_and_sku", (q) =>
-        q.eq("city", args.city).eq("sku", args.sku),
-      )
-      .unique();
-
-    const promos = await ctx.db
-      .query("promoCalendar")
-      .withIndex("by_city_and_sku", (q) =>
-        q.eq("city", args.city).eq("sku", args.sku),
-      )
-      .take(12);
+    const promos = [];
+    for (const city of [args.city, "nacional"]) {
+      promos.push(...await ctx.db.query("promoCalendar")
+        .withIndex("by_city_and_sku", (q) => q.eq("city", city).eq("sku", args.sku))
+        .take(12));
+    }
 
     const now = AS_OF;
-    const activePromo =
-      fact?.activePromo ??
-      promos.some((p) => p.active && p.startsAt <= now && p.endsAt >= now);
+    const activePromo = promos.some((p) => p.active && p.startsAt <= now && p.endsAt >= now);
 
     const catalog = await ctx.db
       .query("catalogItems")
@@ -318,7 +333,7 @@ export const promoMetrics = internalQuery({
     return {
       city: args.city,
       sku: args.sku,
-      product: catalog?.name ?? fact?.product ?? args.sku,
+      product: catalog?.name ?? args.sku,
       activePromo,
       promos: promos.map((p) => ({
         promoId: p.promoId,
