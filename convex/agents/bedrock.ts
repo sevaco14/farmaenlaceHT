@@ -91,9 +91,9 @@ export async function runAgentWithTools(args: {
       toolSpec: {
         name: tool.name,
         description: tool.description,
-        inputSchema: { json: tool.inputSchema },
+        inputSchema: { json: tool.inputSchema as Record<string, unknown> },
       },
-    })),
+    })) as ToolConfiguration["tools"],
   };
 
   const messages: Message[] = [
@@ -145,7 +145,7 @@ export async function runAgentWithTools(args: {
       toolResults.push({
         toolResult: {
           toolUseId: use.toolUseId,
-          content: [{ json: payload as Record<string, unknown> }],
+          content: [{ text: JSON.stringify(payload) }],
         },
       });
     }

@@ -30,7 +30,7 @@ for (const table of TABLES) {
 console.log("Rebuilding insights from imported rows...");
 const rebuilt = spawnSync(
   "npx",
-  ["convex", "run", "insights:runRebuild", '{"replaceRecommendations": true}'],
+  ["convex", "run", "insights:runRebuild", "{replaceRecommendations: true}"],
   { cwd: ROOT, stdio: "inherit", shell: true },
 );
 if (rebuilt.status !== 0) process.exit(rebuilt.status ?? 1);

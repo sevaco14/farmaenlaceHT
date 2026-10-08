@@ -67,9 +67,8 @@ export const whatsappMetrics = internalQuery({
 
     const daily = await ctx.db
       .query("waDaily")
-      .withIndex("by_city_and_sku", (q) =>
-        q.eq("city", args.city).eq("sku", args.sku),
-      )
+      .withIndex("by_city", (q) => q.eq("city", args.city))
+      .filter((q) => q.eq(q.field("sku"), args.sku))
       .take(40);
 
     let waRecent7 = fact?.waRecent7 ?? 0;

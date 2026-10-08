@@ -1,1054 +1,1054 @@
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-11","inbound":5}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-11","inbound":7}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-11","inbound":9}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-11","inbound":6}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-11","inbound":4}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-11","inbound":6}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-11","inbound":6}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-10","inbound":5}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-10","inbound":7}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-10","inbound":9}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-10","inbound":6}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-10","inbound":4}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-10","inbound":6}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-10","inbound":6}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-10","inbound":3}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-10","inbound":7}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-10","inbound":2}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-10","inbound":1}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-10","inbound":7}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-10","inbound":1}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-10","inbound":1}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-10","inbound":1}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-10","inbound":1}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-10","inbound":3}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-10","inbound":1}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-10","inbound":8}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-10","inbound":1}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-10","inbound":2}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-10","inbound":2}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-10","inbound":3}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-10","inbound":3}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-10","inbound":1}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-10","inbound":2}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-10","inbound":1}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-10","inbound":2}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-10","inbound":2}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-10","inbound":2}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-10","inbound":1}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-10","inbound":3}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-10","inbound":1}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-10","inbound":1}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-10","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-10","inbound":1}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-10","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-10","inbound":1}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-11","inbound":1}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-11","inbound":4}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-11","inbound":9}
 {"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-11","inbound":3}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-11","inbound":7}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-11","inbound":2}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-11","inbound":1}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-11","inbound":7}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-11","inbound":1}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-11","inbound":4}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-11","inbound":5}
 {"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-11","inbound":1}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-11","inbound":1}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-11","inbound":1}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-11","inbound":3}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-11","inbound":1}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-11","inbound":3}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-11","inbound":11}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-11","inbound":2}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-11","inbound":1}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-11","inbound":3}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-11","inbound":2}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-11","inbound":2}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-11","inbound":3}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-11","inbound":1}
 {"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-11","inbound":8}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-11","inbound":1}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-11","inbound":1}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-11","inbound":2}
 {"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-11","inbound":1}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-11","inbound":2}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-11","inbound":2}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-11","inbound":3}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-11","inbound":3}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-11","inbound":1}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-11","inbound":1}
 {"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-11","inbound":1}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-11","inbound":2}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-11","inbound":1}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-11","inbound":4}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-11","inbound":2}
 {"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-11","inbound":2}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-11","inbound":2}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-11","inbound":2}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-11","inbound":1}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-11","inbound":2}
 {"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-11","inbound":1}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-11","inbound":3}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-11","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-11","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-11","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-11","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-11","inbound":1}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-11","inbound":2}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-11","inbound":1}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-11","inbound":2}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-11","inbound":3}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-11","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-11","inbound":2}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-11","inbound":2}
 {"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-11","inbound":1}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-12","inbound":1}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-12","inbound":4}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-11","inbound":1}
 {"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-12","inbound":9}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-12","inbound":3}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-12","inbound":4}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-12","inbound":5}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-12","inbound":1}
 {"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-12","inbound":3}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-12","inbound":11}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-12","inbound":2}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-12","inbound":1}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-12","inbound":3}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-12","inbound":2}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-12","inbound":2}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-12","inbound":3}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-12","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-12","inbound":8}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-12","inbound":1}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-12","inbound":1}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-12","inbound":2}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-12","inbound":1}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-12","inbound":1}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-12","inbound":1}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-12","inbound":3}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-12","inbound":8}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-12","inbound":3}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-12","inbound":5}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-12","inbound":5}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-12","inbound":6}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-12","inbound":7}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-12","inbound":2}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-12","inbound":3}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-12","inbound":4}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-12","inbound":2}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-12","inbound":2}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-12","inbound":1}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-12","inbound":9}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-12","inbound":5}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-12","inbound":5}
 {"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-12","inbound":1}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-12","inbound":4}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-12","inbound":2}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-12","inbound":2}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-12","inbound":4}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-12","inbound":6}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-12","inbound":4}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-12","inbound":2}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-12","inbound":2}
 {"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-12","inbound":1}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-12","inbound":2}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-12","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-12","inbound":2}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-12","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-12","inbound":2}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-12","inbound":3}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-12","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-12","inbound":2}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-12","inbound":2}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-12","inbound":1}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-12","inbound":1}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-12","inbound":3}
 {"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-12","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-12","inbound":2}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-12","inbound":2}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-12","inbound":1}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-12","inbound":1}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-12","inbound":1}
 {"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-12","inbound":1}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-13","inbound":9}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-13","inbound":3}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-13","inbound":3}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-13","inbound":8}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-13","inbound":3}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-13","inbound":5}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-13","inbound":5}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-13","inbound":6}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-13","inbound":7}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-13","inbound":2}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-13","inbound":3}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-13","inbound":4}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-13","inbound":2}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-13","inbound":2}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-13","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-13","inbound":9}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-12","inbound":1}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-13","inbound":4}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-13","inbound":9}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-13","inbound":5}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-13","inbound":4}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-13","inbound":4}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-13","inbound":8}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-13","inbound":4}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-13","inbound":2}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-13","inbound":7}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-13","inbound":4}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-13","inbound":1}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-13","inbound":5}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-13","inbound":3}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-13","inbound":1}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-13","inbound":2}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-13","inbound":1}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-13","inbound":6}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-13","inbound":5}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-13","inbound":2}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-13","inbound":3}
 {"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-13","inbound":5}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-13","inbound":5}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-13","inbound":1}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-13","inbound":4}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-13","inbound":6}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-13","inbound":4}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-13","inbound":2}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-13","inbound":2}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-13","inbound":1}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-13","inbound":1}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-13","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-13","inbound":3}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-13","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-13","inbound":2}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-13","inbound":2}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-13","inbound":1}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-13","inbound":1}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-13","inbound":1}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-13","inbound":1}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-13","inbound":2}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-13","inbound":1}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-13","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-13","inbound":2}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-13","inbound":1}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-13","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-13","inbound":1}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-13","inbound":2}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-13","inbound":5}
 {"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-13","inbound":1}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-13","inbound":1}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-13","inbound":1}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-14","inbound":4}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-14","inbound":9}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-14","inbound":5}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-14","inbound":4}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-14","inbound":4}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-14","inbound":8}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-14","inbound":4}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-13","inbound":2}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-13","inbound":1}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-14","inbound":2}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-14","inbound":1}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-14","inbound":3}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-14","inbound":2}
 {"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-14","inbound":2}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-14","inbound":7}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-14","inbound":4}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-14","inbound":1}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-14","inbound":5}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-14","inbound":3}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-14","inbound":1}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-14","inbound":2}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-14","inbound":5}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-14","inbound":6}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-14","inbound":2}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-14","inbound":1}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-14","inbound":5}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-14","inbound":1}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-14","inbound":2}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-14","inbound":1}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-14","inbound":2}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-14","inbound":7}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-14","inbound":2}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-14","inbound":4}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-14","inbound":2}
 {"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-14","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-14","inbound":6}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-14","inbound":5}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-14","inbound":2}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-14","inbound":3}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-14","inbound":5}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-14","inbound":1}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-14","inbound":1}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-14","inbound":2}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-14","inbound":3}
 {"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-14","inbound":2}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-14","inbound":1}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-14","inbound":1}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-14","inbound":2}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-14","inbound":1}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-14","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-14","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-14","inbound":2}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-14","inbound":5}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-14","inbound":1}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-14","inbound":2}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-14","inbound":1}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-14","inbound":3}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-14","inbound":3}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-14","inbound":2}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-14","inbound":2}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-14","inbound":2}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-14","inbound":1}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-14","inbound":2}
+{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-14","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-14","inbound":4}
 {"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-14","inbound":1}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-15","inbound":2}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-15","inbound":1}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-15","inbound":3}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-15","inbound":2}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-15","inbound":2}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-15","inbound":5}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-15","inbound":6}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-15","inbound":2}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-15","inbound":1}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-14","inbound":1}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-14","inbound":1}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-15","inbound":2}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-15","inbound":5}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-15","inbound":5}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-15","inbound":6}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-15","inbound":6}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-15","inbound":10}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-15","inbound":2}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-15","inbound":3}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-15","inbound":3}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-15","inbound":1}
 {"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-15","inbound":5}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-15","inbound":1}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-15","inbound":2}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-15","inbound":1}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-15","inbound":2}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-15","inbound":7}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-15","inbound":2}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-15","inbound":4}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-15","inbound":2}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-15","inbound":1}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-15","inbound":3}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-15","inbound":3}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-15","inbound":1}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-15","inbound":5}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-15","inbound":1}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-15","inbound":1}
 {"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-15","inbound":2}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-15","inbound":3}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-15","inbound":2}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-15","inbound":8}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-15","inbound":1}
 {"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-15","inbound":1}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-15","inbound":3}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-15","inbound":3}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-15","inbound":2}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-15","inbound":2}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-15","inbound":2}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-15","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-15","inbound":2}
-{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-15","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-15","inbound":4}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-15","inbound":2}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-15","inbound":1}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-15","inbound":1}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-15","inbound":2}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-15","inbound":1}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-15","inbound":1}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-15","inbound":2}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-15","inbound":2}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-15","inbound":3}
 {"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-15","inbound":1}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-15","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-15","inbound":1}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-16","inbound":2}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-16","inbound":5}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-16","inbound":5}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-16","inbound":6}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-16","inbound":6}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-16","inbound":10}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-15","inbound":1}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-15","inbound":4}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-15","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-15","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-15","inbound":2}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-15","inbound":2}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-15","inbound":2}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-15","inbound":2}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-16","inbound":4}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-16","inbound":7}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-16","inbound":4}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-16","inbound":11}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-16","inbound":4}
 {"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-16","inbound":2}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-16","inbound":3}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-16","inbound":3}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-16","inbound":1}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-16","inbound":5}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-16","inbound":3}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-16","inbound":3}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-16","inbound":1}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-16","inbound":3}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-16","inbound":6}
 {"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-16","inbound":5}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-16","inbound":1}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-16","inbound":1}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-16","inbound":2}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-16","inbound":8}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-16","inbound":1}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-16","inbound":1}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-16","inbound":2}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-16","inbound":5}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-16","inbound":3}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-16","inbound":1}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-16","inbound":3}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-16","inbound":3}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-16","inbound":5}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-16","inbound":1}
 {"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-16","inbound":1}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-16","inbound":1}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-16","inbound":2}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-16","inbound":1}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-16","inbound":1}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-16","inbound":2}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-16","inbound":3}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-16","inbound":1}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-16","inbound":2}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-16","inbound":5}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-16","inbound":6}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-16","inbound":4}
 {"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-16","inbound":2}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-16","inbound":2}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-16","inbound":3}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-16","inbound":1}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-16","inbound":2}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-16","inbound":3}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-16","inbound":1}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-16","inbound":2}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-16","inbound":1}
+{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-16","inbound":1}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-16","inbound":1}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-16","inbound":1}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-16","inbound":1}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-16","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-16","inbound":1}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-16","inbound":2}
 {"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-16","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-16","inbound":4}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-16","inbound":1}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-16","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-16","inbound":2}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-16","inbound":2}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-16","inbound":2}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-16","inbound":2}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-17","inbound":4}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-17","inbound":7}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-17","inbound":4}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-17","inbound":11}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-17","inbound":4}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-17","inbound":2}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-17","inbound":3}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-17","inbound":6}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-17","inbound":2}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-17","inbound":2}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-17","inbound":3}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-17","inbound":6}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-17","inbound":1}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-17","inbound":3}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-17","inbound":4}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-17","inbound":5}
 {"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-17","inbound":5}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-17","inbound":5}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-17","inbound":3}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-17","inbound":1}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-17","inbound":2}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-17","inbound":4}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-17","inbound":3}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-17","inbound":2}
 {"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-17","inbound":3}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-17","inbound":3}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-17","inbound":5}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-17","inbound":1}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-17","inbound":1}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-17","inbound":2}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-17","inbound":3}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-17","inbound":1}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-17","inbound":2}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-17","inbound":1}
 {"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-17","inbound":5}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-17","inbound":6}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-17","inbound":4}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-17","inbound":2}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-17","inbound":2}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-17","inbound":3}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-17","inbound":1}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-17","inbound":2}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-17","inbound":1}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-17","inbound":1}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-17","inbound":1}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-17","inbound":1}
 {"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-17","inbound":1}
-{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-17","inbound":1}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-17","inbound":1}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-17","inbound":1}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-17","inbound":1}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-17","inbound":1}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-17","inbound":2}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-17","inbound":2}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-17","inbound":1}
 {"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-17","inbound":1}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-17","inbound":2}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-17","inbound":2}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-17","inbound":2}
 {"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-17","inbound":1}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-18","inbound":2}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-18","inbound":2}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-18","inbound":3}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-18","inbound":6}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-18","inbound":1}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-17","inbound":2}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-17","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-17","inbound":1}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-17","inbound":1}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-18","inbound":5}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-18","inbound":5}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-18","inbound":5}
 {"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-18","inbound":3}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-18","inbound":4}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-18","inbound":5}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-18","inbound":5}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-18","inbound":2}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-18","inbound":4}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-18","inbound":3}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-18","inbound":2}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-18","inbound":3}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-18","inbound":3}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-18","inbound":7}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-18","inbound":4}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-18","inbound":4}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-18","inbound":7}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-18","inbound":2}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-18","inbound":4}
 {"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-18","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-18","inbound":5}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-18","inbound":1}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-18","inbound":1}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-18","inbound":1}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-18","inbound":1}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-18","inbound":1}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-18","inbound":2}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-18","inbound":1}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-18","inbound":2}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-18","inbound":2}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-18","inbound":2}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-18","inbound":3}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-18","inbound":3}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-18","inbound":9}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-18","inbound":1}
 {"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-18","inbound":2}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-18","inbound":2}
 {"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-18","inbound":2}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-18","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-18","inbound":1}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-18","inbound":1}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-18","inbound":1}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-18","inbound":2}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-18","inbound":1}
 {"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-18","inbound":2}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-18","inbound":2}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-18","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-18","inbound":2}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-18","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-18","inbound":1}
 {"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-18","inbound":1}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-19","inbound":5}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-19","inbound":5}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-19","inbound":5}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-18","inbound":5}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-18","inbound":2}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-18","inbound":2}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-18","inbound":1}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-18","inbound":1}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-18","inbound":2}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-18","inbound":1}
+{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-18","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-18","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-18","inbound":1}
 {"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-19","inbound":3}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-19","inbound":3}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-19","inbound":7}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-19","inbound":4}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-19","inbound":4}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-19","inbound":7}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-19","inbound":2}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-19","inbound":4}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-19","inbound":1}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-19","inbound":2}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-19","inbound":3}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-19","inbound":7}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-19","inbound":5}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-19","inbound":5}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-19","inbound":6}
 {"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-19","inbound":1}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-19","inbound":1}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-19","inbound":1}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-19","inbound":2}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-19","inbound":4}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-19","inbound":4}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-19","inbound":2}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-19","inbound":5}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-19","inbound":2}
 {"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-19","inbound":2}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-19","inbound":2}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-19","inbound":2}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-19","inbound":3}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-19","inbound":3}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-19","inbound":9}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-19","inbound":1}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-19","inbound":2}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-19","inbound":2}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-19","inbound":2}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-19","inbound":1}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-19","inbound":7}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-19","inbound":2}
 {"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-19","inbound":1}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-19","inbound":2}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-19","inbound":2}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-19","inbound":2}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-19","inbound":1}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-19","inbound":5}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-19","inbound":3}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-19","inbound":2}
 {"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-19","inbound":2}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-19","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-19","inbound":2}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-19","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-19","inbound":5}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-19","inbound":2}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-19","inbound":2}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-19","inbound":1}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-19","inbound":1}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-19","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-19","inbound":1}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-19","inbound":2}
 {"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-19","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-19","inbound":2}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-19","inbound":1}
-{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-19","inbound":1}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-19","inbound":1}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-19","inbound":2}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-19","inbound":2}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-19","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-19","inbound":3}
 {"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-19","inbound":1}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-20","inbound":3}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-20","inbound":3}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-20","inbound":7}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-20","inbound":5}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-20","inbound":5}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-20","inbound":6}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-20","inbound":1}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-20","inbound":1}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-20","inbound":1}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-20","inbound":2}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-19","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-19","inbound":1}
+{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-19","inbound":1}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-20","inbound":4}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-20","inbound":5}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-20","inbound":7}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-20","inbound":3}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-20","inbound":5}
 {"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-20","inbound":4}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-20","inbound":4}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-20","inbound":2}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-20","inbound":4}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-20","inbound":5}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-20","inbound":3}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-20","inbound":2}
 {"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-20","inbound":5}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-20","inbound":2}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-20","inbound":3}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-20","inbound":4}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-20","inbound":3}
 {"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-20","inbound":2}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-20","inbound":2}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-20","inbound":7}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-20","inbound":2}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-20","inbound":1}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-20","inbound":2}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-20","inbound":2}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-20","inbound":8}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-20","inbound":3}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-20","inbound":1}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-20","inbound":2}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-20","inbound":2}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-20","inbound":4}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-20","inbound":4}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-20","inbound":1}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-20","inbound":2}
 {"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-20","inbound":2}
 {"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-20","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-20","inbound":5}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-20","inbound":3}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-20","inbound":2}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-20","inbound":2}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-20","inbound":1}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-20","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-20","inbound":1}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-20","inbound":2}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-20","inbound":1}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-20","inbound":2}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-20","inbound":2}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-20","inbound":1}
 {"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-20","inbound":3}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-20","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-20","inbound":3}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-20","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-20","inbound":2}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-20","inbound":2}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-20","inbound":1}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-20","inbound":1}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-20","inbound":1}
 {"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-20","inbound":1}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-20","inbound":1}
-{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-20","inbound":1}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-21","inbound":4}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-21","inbound":5}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-21","inbound":7}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-20","inbound":1}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-21","inbound":8}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-21","inbound":3}
 {"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-21","inbound":3}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-21","inbound":5}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-21","inbound":4}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-21","inbound":4}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-21","inbound":5}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-21","inbound":3}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-21","inbound":2}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-21","inbound":5}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-21","inbound":8}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-21","inbound":4}
 {"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-21","inbound":2}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-21","inbound":3}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-21","inbound":4}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-21","inbound":4}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-21","inbound":2}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-21","inbound":6}
 {"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-21","inbound":3}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-21","inbound":2}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-21","inbound":8}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-21","inbound":3}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-21","inbound":1}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-21","inbound":2}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-21","inbound":2}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-21","inbound":4}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-21","inbound":4}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-21","inbound":1}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-21","inbound":2}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-21","inbound":2}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-21","inbound":2}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-21","inbound":2}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-21","inbound":1}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-21","inbound":5}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-21","inbound":2}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-21","inbound":3}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-21","inbound":9}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-21","inbound":1}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-21","inbound":2}
 {"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-21","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-21","inbound":3}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-21","inbound":3}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-21","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-21","inbound":2}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-21","inbound":2}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-21","inbound":3}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-21","inbound":2}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-21","inbound":1}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-21","inbound":2}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-21","inbound":2}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-21","inbound":1}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-21","inbound":2}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-21","inbound":2}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-21","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-21","inbound":1}
 {"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-21","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-21","inbound":1}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-21","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-21","inbound":1}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-21","inbound":2}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-21","inbound":1}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-21","inbound":2}
 {"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-21","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-21","inbound":1}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-21","inbound":1}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-22","inbound":8}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-21","inbound":1}
 {"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-22","inbound":3}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-22","inbound":3}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-22","inbound":8}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-22","inbound":4}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-22","inbound":2}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-22","inbound":4}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-22","inbound":2}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-22","inbound":6}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-22","inbound":3}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-22","inbound":2}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-22","inbound":2}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-22","inbound":1}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-22","inbound":5}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-22","inbound":2}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-22","inbound":3}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-22","inbound":9}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-22","inbound":1}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-22","inbound":2}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-22","inbound":1}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-22","inbound":3}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-22","inbound":2}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-22","inbound":3}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-22","inbound":4}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-22","inbound":4}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-22","inbound":5}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-22","inbound":2}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-22","inbound":1}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-22","inbound":5}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-22","inbound":3}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-22","inbound":2}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-22","inbound":4}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-22","inbound":2}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-22","inbound":2}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-22","inbound":1}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-22","inbound":1}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-22","inbound":6}
 {"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-22","inbound":1}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-22","inbound":2}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-22","inbound":2}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-22","inbound":1}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-22","inbound":2}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-22","inbound":2}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-22","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-22","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-22","inbound":1}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-22","inbound":4}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-22","inbound":4}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-22","inbound":4}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-22","inbound":2}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-22","inbound":4}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-22","inbound":3}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-22","inbound":2}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-22","inbound":2}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-22","inbound":2}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-22","inbound":3}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-22","inbound":3}
+{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-22","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-22","inbound":2}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-22","inbound":2}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-22","inbound":2}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-22","inbound":2}
 {"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-22","inbound":1}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-22","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-22","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-22","inbound":1}
 {"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-22","inbound":1}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-22","inbound":2}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-22","inbound":1}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-22","inbound":2}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-22","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-22","inbound":1}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-23","inbound":3}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-23","inbound":3}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-23","inbound":4}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-23","inbound":4}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-23","inbound":5}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-23","inbound":2}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-23","inbound":1}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-23","inbound":5}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-23","inbound":2}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-23","inbound":6}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-23","inbound":6}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-23","inbound":6}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-23","inbound":6}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-23","inbound":7}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-23","inbound":6}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-23","inbound":4}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-23","inbound":5}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-23","inbound":4}
 {"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-23","inbound":3}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-23","inbound":2}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-23","inbound":4}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-23","inbound":2}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-23","inbound":2}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-23","inbound":1}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-23","inbound":1}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-23","inbound":3}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-23","inbound":5}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-23","inbound":3}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-23","inbound":6}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-23","inbound":1}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-23","inbound":7}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-23","inbound":4}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-23","inbound":3}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-23","inbound":1}
 {"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-23","inbound":6}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-23","inbound":1}
 {"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-23","inbound":4}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-23","inbound":4}
 {"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-23","inbound":4}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-23","inbound":2}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-23","inbound":4}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-23","inbound":3}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-23","inbound":2}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-23","inbound":2}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-23","inbound":2}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-23","inbound":3}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-23","inbound":3}
-{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-23","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-23","inbound":2}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-23","inbound":2}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-23","inbound":2}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-23","inbound":1}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-23","inbound":1}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-23","inbound":2}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-23","inbound":3}
 {"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-23","inbound":2}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-23","inbound":1}
 {"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-23","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-23","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-23","inbound":1}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-23","inbound":1}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-24","inbound":2}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-24","inbound":6}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-24","inbound":6}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-24","inbound":6}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-23","inbound":2}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-23","inbound":3}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-23","inbound":1}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-23","inbound":1}
+{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-23","inbound":1}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-23","inbound":1}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-23","inbound":1}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-23","inbound":1}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-24","inbound":1}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-24","inbound":4}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-24","inbound":1}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-24","inbound":4}
 {"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-24","inbound":6}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-24","inbound":7}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-24","inbound":6}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-24","inbound":4}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-24","inbound":1}
 {"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-24","inbound":5}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-24","inbound":4}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-24","inbound":6}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-24","inbound":2}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-24","inbound":3}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-24","inbound":6}
 {"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-24","inbound":4}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-24","inbound":3}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-24","inbound":3}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-24","inbound":5}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-24","inbound":3}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-24","inbound":6}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-24","inbound":1}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-24","inbound":7}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-24","inbound":4}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-24","inbound":1}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-24","inbound":2}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-24","inbound":3}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-24","inbound":2}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-24","inbound":3}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-24","inbound":4}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-24","inbound":2}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-24","inbound":2}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-24","inbound":4}
 {"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-24","inbound":3}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-24","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-24","inbound":6}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-24","inbound":4}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-24","inbound":4}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-24","inbound":1}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-24","inbound":1}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-24","inbound":2}
 {"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-24","inbound":1}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-24","inbound":1}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-24","inbound":2}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-24","inbound":3}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-24","inbound":2}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-24","inbound":1}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-24","inbound":3}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-24","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-24","inbound":2}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-24","inbound":1}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-24","inbound":2}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-24","inbound":1}
 {"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-24","inbound":1}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-24","inbound":2}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-24","inbound":3}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-24","inbound":1}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-24","inbound":1}
-{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-24","inbound":1}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-24","inbound":1}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-24","inbound":2}
 {"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-24","inbound":1}
 {"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-24","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-24","inbound":1}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-25","inbound":1}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-25","inbound":4}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-25","inbound":1}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-25","inbound":4}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-25","inbound":6}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-25","inbound":1}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-25","inbound":5}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-25","inbound":4}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-25","inbound":6}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-25","inbound":2}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-25","inbound":3}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-25","inbound":6}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-24","inbound":2}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-24","inbound":2}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-24","inbound":3}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-25","inbound":2}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-25","inbound":4}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-25","inbound":6}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-25","inbound":4}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-25","inbound":5}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-25","inbound":3}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-25","inbound":5}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-25","inbound":7}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-25","inbound":4}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-25","inbound":7}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-25","inbound":3}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-25","inbound":7}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-25","inbound":3}
 {"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-25","inbound":4}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-25","inbound":1}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-25","inbound":2}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-25","inbound":3}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-25","inbound":2}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-25","inbound":3}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-25","inbound":4}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-25","inbound":2}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-25","inbound":2}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-25","inbound":4}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-25","inbound":3}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-25","inbound":1}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-25","inbound":1}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-25","inbound":2}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-25","inbound":1}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-25","inbound":2}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-25","inbound":1}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-25","inbound":3}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-25","inbound":2}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-25","inbound":6}
 {"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-25","inbound":1}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-25","inbound":4}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-25","inbound":3}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-25","inbound":2}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-25","inbound":2}
 {"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-25","inbound":3}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-25","inbound":1}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-25","inbound":2}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-25","inbound":1}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-25","inbound":2}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-25","inbound":1}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-25","inbound":1}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-25","inbound":1}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-25","inbound":2}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-25","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-25","inbound":1}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-25","inbound":2}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-25","inbound":1}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-25","inbound":2}
 {"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-25","inbound":2}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-25","inbound":2}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-25","inbound":3}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-26","inbound":2}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-26","inbound":4}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-26","inbound":6}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-26","inbound":4}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-26","inbound":5}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-26","inbound":3}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-26","inbound":5}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-26","inbound":7}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-25","inbound":2}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-25","inbound":1}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-25","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-25","inbound":1}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-25","inbound":1}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-25","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-25","inbound":1}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-26","inbound":5}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-26","inbound":4}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-26","inbound":2}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-26","inbound":4}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-26","inbound":3}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-26","inbound":7}
 {"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-26","inbound":4}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-26","inbound":7}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-26","inbound":3}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-26","inbound":7}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-26","inbound":3}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-26","inbound":4}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-26","inbound":2}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-26","inbound":2}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-26","inbound":2}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-26","inbound":4}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-26","inbound":1}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-26","inbound":1}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-26","inbound":1}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-26","inbound":1}
 {"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-26","inbound":1}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-26","inbound":3}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-26","inbound":2}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-26","inbound":6}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-26","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-26","inbound":4}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-26","inbound":3}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-26","inbound":2}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-26","inbound":2}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-26","inbound":3}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-26","inbound":2}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-26","inbound":1}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-26","inbound":2}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-26","inbound":7}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-26","inbound":6}
 {"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-26","inbound":2}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-26","inbound":2}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-26","inbound":2}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-26","inbound":1}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-26","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-26","inbound":1}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-26","inbound":1}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-26","inbound":1}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-26","inbound":2}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-26","inbound":3}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-26","inbound":2}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-26","inbound":6}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-26","inbound":5}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-26","inbound":1}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-26","inbound":3}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-26","inbound":3}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-26","inbound":1}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-26","inbound":1}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-26","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-26","inbound":2}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-26","inbound":3}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-26","inbound":2}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-26","inbound":2}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-26","inbound":2}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-26","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-26","inbound":5}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-26","inbound":1}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-26","inbound":1}
 {"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-26","inbound":1}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-27","inbound":5}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-27","inbound":4}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-27","inbound":2}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-27","inbound":4}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-27","inbound":3}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-27","inbound":7}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-27","inbound":4}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-26","inbound":1}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-27","inbound":4}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-27","inbound":3}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-27","inbound":3}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-27","inbound":3}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-27","inbound":4}
 {"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-27","inbound":2}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-27","inbound":5}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-27","inbound":3}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-27","inbound":3}
 {"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-27","inbound":2}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-27","inbound":4}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-27","inbound":1}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-27","inbound":1}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-27","inbound":1}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-27","inbound":1}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-27","inbound":1}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-27","inbound":2}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-27","inbound":7}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-27","inbound":6}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-27","inbound":2}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-27","inbound":2}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-27","inbound":3}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-27","inbound":2}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-27","inbound":6}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-27","inbound":5}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-27","inbound":1}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-27","inbound":3}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-27","inbound":3}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-27","inbound":1}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-27","inbound":1}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-27","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-27","inbound":2}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-27","inbound":3}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-27","inbound":2}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-27","inbound":2}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-27","inbound":2}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-27","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-27","inbound":5}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-27","inbound":1}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-27","inbound":1}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-27","inbound":4}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-27","inbound":2}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-27","inbound":1}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-27","inbound":2}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-27","inbound":7}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-27","inbound":2}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-27","inbound":2}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-27","inbound":8}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-27","inbound":1}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-27","inbound":3}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-27","inbound":4}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-27","inbound":3}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-27","inbound":4}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-27","inbound":1}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-27","inbound":3}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-27","inbound":1}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-27","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-27","inbound":3}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-27","inbound":2}
 {"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-27","inbound":1}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-27","inbound":1}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-28","inbound":4}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-28","inbound":3}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-28","inbound":3}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-28","inbound":3}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-28","inbound":4}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-28","inbound":2}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-28","inbound":5}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-28","inbound":3}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-28","inbound":3}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-28","inbound":2}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-28","inbound":4}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-28","inbound":2}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-28","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-27","inbound":4}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-27","inbound":1}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-27","inbound":2}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-27","inbound":1}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-27","inbound":1}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-27","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-27","inbound":1}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-28","inbound":3}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-28","inbound":7}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-28","inbound":9}
 {"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-28","inbound":2}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-28","inbound":7}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-28","inbound":2}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-28","inbound":4}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-28","inbound":3}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-28","inbound":4}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-28","inbound":3}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-28","inbound":5}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-28","inbound":3}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-28","inbound":3}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-28","inbound":2}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-28","inbound":3}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-28","inbound":1}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-28","inbound":1}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-28","inbound":2}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-28","inbound":5}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-28","inbound":5}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-28","inbound":3}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-28","inbound":6}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-28","inbound":6}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-28","inbound":2}
 {"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-28","inbound":2}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-28","inbound":8}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-28","inbound":1}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-28","inbound":3}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-28","inbound":4}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-28","inbound":3}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-28","inbound":4}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-28","inbound":1}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-28","inbound":1}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-28","inbound":3}
 {"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-28","inbound":3}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-28","inbound":1}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-28","inbound":3}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-28","inbound":2}
 {"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-28","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-28","inbound":3}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-28","inbound":2}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-28","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-28","inbound":4}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-28","inbound":1}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-28","inbound":2}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-28","inbound":3}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-28","inbound":1}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-28","inbound":1}
 {"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-28","inbound":2}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-28","inbound":2}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-28","inbound":1}
 {"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-28","inbound":1}
 {"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-28","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-28","inbound":3}
 {"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-28","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-28","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-28","inbound":2}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-28","inbound":1}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-28","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-28","inbound":2}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-29","inbound":5}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-29","inbound":3}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-29","inbound":5}
 {"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-29","inbound":3}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-29","inbound":7}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-29","inbound":9}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-29","inbound":2}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-29","inbound":4}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-29","inbound":3}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-29","inbound":4}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-29","inbound":3}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-29","inbound":5}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-29","inbound":3}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-29","inbound":3}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-29","inbound":5}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-29","inbound":3}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-29","inbound":6}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-29","inbound":1}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-29","inbound":2}
 {"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-29","inbound":2}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-29","inbound":3}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-29","inbound":1}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-29","inbound":1}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-29","inbound":2}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-29","inbound":2}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-29","inbound":2}
 {"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-29","inbound":2}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-29","inbound":5}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-29","inbound":5}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-29","inbound":3}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-29","inbound":6}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-29","inbound":6}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-29","inbound":2}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-29","inbound":2}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-29","inbound":1}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-29","inbound":3}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-29","inbound":3}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-29","inbound":3}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-29","inbound":2}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-29","inbound":1}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-29","inbound":2}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-29","inbound":2}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-29","inbound":3}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-29","inbound":10}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-29","inbound":4}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-29","inbound":3}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-29","inbound":2}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-29","inbound":3}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-29","inbound":2}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-29","inbound":2}
 {"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-29","inbound":3}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-29","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-29","inbound":1}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-29","inbound":2}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-29","inbound":2}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-29","inbound":1}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-29","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-29","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-29","inbound":3}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-29","inbound":1}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-29","inbound":2}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-29","inbound":3}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-29","inbound":1}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-29","inbound":2}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-29","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-29","inbound":4}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-29","inbound":4}
 {"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-29","inbound":2}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-29","inbound":1}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-29","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-29","inbound":2}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-30","inbound":5}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-30","inbound":3}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-30","inbound":5}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-30","inbound":3}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-30","inbound":5}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-30","inbound":3}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-30","inbound":6}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-30","inbound":1}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-30","inbound":2}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-29","inbound":2}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-29","inbound":1}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-29","inbound":1}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-29","inbound":2}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-29","inbound":2}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-29","inbound":1}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-29","inbound":2}
+{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-29","inbound":1}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-29","inbound":1}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-29","inbound":1}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-30","inbound":6}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-30","inbound":4}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-30","inbound":2}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-30","inbound":3}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-30","inbound":4}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-30","inbound":5}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-30","inbound":4}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-30","inbound":3}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-30","inbound":3}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-30","inbound":1}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-30","inbound":3}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-09-30","inbound":4}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-30","inbound":3}
 {"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-30","inbound":2}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-30","inbound":2}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-30","inbound":2}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-30","inbound":2}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-09-30","inbound":2}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-30","inbound":2}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-30","inbound":3}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-30","inbound":10}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-30","inbound":4}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-30","inbound":3}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-30","inbound":2}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-30","inbound":3}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-30","inbound":2}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-30","inbound":2}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-30","inbound":3}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-30","inbound":2}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-30","inbound":3}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-30","inbound":2}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-30","inbound":3}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-09-30","inbound":1}
 {"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-30","inbound":1}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-30","inbound":2}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-30","inbound":2}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-09-30","inbound":1}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-30","inbound":2}
 {"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-09-30","inbound":2}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-30","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-09-30","inbound":4}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-09-30","inbound":4}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-30","inbound":2}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-30","inbound":2}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-30","inbound":1}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-30","inbound":1}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-09-30","inbound":2}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-30","inbound":2}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-30","inbound":1}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-30","inbound":2}
-{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-09-30","inbound":1}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-09-30","inbound":1}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-09-30","inbound":3}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-30","inbound":2}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-30","inbound":1}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-09-30","inbound":1}
 {"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-09-30","inbound":1}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-09-30","inbound":1}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-01","inbound":6}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-01","inbound":4}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-01","inbound":2}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-01","inbound":3}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-01","inbound":4}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-01","inbound":5}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-01","inbound":4}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-01","inbound":3}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-01","inbound":3}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-01","inbound":1}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-01","inbound":3}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-01","inbound":4}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-01","inbound":3}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-09-30","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-09-30","inbound":1}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-09-30","inbound":1}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-09-30","inbound":1}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-09-30","inbound":1}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-09-30","inbound":1}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-01","inbound":5}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-01","inbound":12}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-01","inbound":1}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-01","inbound":2}
 {"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-01","inbound":2}
 {"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-01","inbound":2}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-01","inbound":3}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-01","inbound":1}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-01","inbound":1}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-01","inbound":5}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-01","inbound":4}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-01","inbound":10}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-01","inbound":3}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-01","inbound":4}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-01","inbound":4}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-01","inbound":2}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-01","inbound":1}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-01","inbound":2}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-01","inbound":2}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-01","inbound":5}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-01","inbound":3}
 {"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-01","inbound":2}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-01","inbound":2}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-01","inbound":1}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-01","inbound":2}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-01","inbound":2}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-01","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-01","inbound":3}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-01","inbound":2}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-01","inbound":2}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-01","inbound":5}
 {"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-01","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-01","inbound":1}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-01","inbound":1}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-01","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-10-01","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-01","inbound":1}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-01","inbound":1}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-01","inbound":7}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-01","inbound":1}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-01","inbound":2}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-01","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-01","inbound":4}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-01","inbound":4}
 {"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-01","inbound":1}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-10-01","inbound":3}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-01","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-10-01","inbound":2}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-01","inbound":2}
 {"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-01","inbound":1}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-02","inbound":5}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-02","inbound":12}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-02","inbound":1}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-01","inbound":5}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-01","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-01","inbound":1}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-02","inbound":4}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-02","inbound":14}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-02","inbound":7}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-02","inbound":3}
 {"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-02","inbound":2}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-02","inbound":2}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-02","inbound":2}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-02","inbound":5}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-02","inbound":4}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-02","inbound":10}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-02","inbound":5}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-02","inbound":1}
 {"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-02","inbound":3}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-02","inbound":4}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-02","inbound":4}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-02","inbound":2}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-02","inbound":1}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-02","inbound":6}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-02","inbound":2}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-02","inbound":5}
 {"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-02","inbound":2}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-02","inbound":2}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-02","inbound":5}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-02","inbound":3}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-02","inbound":2}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-02","inbound":2}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-02","inbound":4}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-02","inbound":2}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-02","inbound":1}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-02","inbound":1}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-02","inbound":5}
 {"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-02","inbound":5}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-02","inbound":6}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-02","inbound":3}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-02","inbound":4}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-02","inbound":3}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-02","inbound":5}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-02","inbound":2}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-02","inbound":1}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-02","inbound":1}
 {"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-02","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-02","inbound":7}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-02","inbound":1}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-02","inbound":2}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-02","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-02","inbound":4}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-02","inbound":4}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-02","inbound":1}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-10-02","inbound":3}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-02","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-10-02","inbound":2}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-02","inbound":1}
+{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-02","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-02","inbound":3}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-02","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-02","inbound":1}
 {"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-02","inbound":2}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-02","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-02","inbound":5}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-10-02","inbound":1}
 {"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-02","inbound":1}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-02","inbound":1}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-03","inbound":4}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-03","inbound":14}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-03","inbound":7}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-03","inbound":3}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-02","inbound":1}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-02","inbound":1}
+{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-02","inbound":2}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-02","inbound":1}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-03","inbound":4}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-03","inbound":4}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-03","inbound":5}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-03","inbound":4}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-03","inbound":1}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-03","inbound":5}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-03","inbound":19}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-03","inbound":11}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-03","inbound":5}
 {"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-03","inbound":2}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-03","inbound":5}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-03","inbound":1}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-03","inbound":3}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-03","inbound":6}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-03","inbound":2}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-03","inbound":5}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-03","inbound":2}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-03","inbound":3}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-03","inbound":1}
 {"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-03","inbound":4}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-03","inbound":2}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-03","inbound":1}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-03","inbound":1}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-03","inbound":5}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-03","inbound":5}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-03","inbound":6}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-03","inbound":3}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-03","inbound":4}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-03","inbound":3}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-03","inbound":5}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-03","inbound":2}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-03","inbound":1}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-03","inbound":1}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-03","inbound":1}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-03","inbound":2}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-03","inbound":3}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-03","inbound":7}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-03","inbound":2}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-03","inbound":4}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-03","inbound":1}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-03","inbound":2}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-03","inbound":1}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-03","inbound":3}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-03","inbound":2}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-03","inbound":2}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-03","inbound":2}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-03","inbound":2}
 {"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-03","inbound":1}
-{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-03","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-03","inbound":3}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-03","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-03","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-03","inbound":2}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-10-03","inbound":1}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-03","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-03","inbound":1}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-03","inbound":1}
-{"city":"cuenca","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-03","inbound":2}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-03","inbound":1}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-04","inbound":4}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-04","inbound":4}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-04","inbound":5}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-04","inbound":4}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-04","inbound":1}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-04","inbound":5}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-04","inbound":19}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-04","inbound":11}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-04","inbound":5}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-04","inbound":2}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-04","inbound":3}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-04","inbound":1}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-04","inbound":4}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-04","inbound":2}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-04","inbound":3}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-04","inbound":7}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-04","inbound":2}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-03","inbound":1}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-03","inbound":2}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-03","inbound":3}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-10-03","inbound":3}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-03","inbound":2}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-03","inbound":1}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-04","inbound":10}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-04","inbound":10}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-04","inbound":2}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-04","inbound":4}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-04","inbound":3}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-04","inbound":1}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-04","inbound":5}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-04","inbound":2}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-04","inbound":5}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-04","inbound":3}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-04","inbound":8}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-04","inbound":4}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-04","inbound":2}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-04","inbound":2}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-04","inbound":1}
 {"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-04","inbound":4}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-04","inbound":2}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-04","inbound":3}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-04","inbound":7}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-04","inbound":2}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-04","inbound":2}
 {"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-04","inbound":1}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-04","inbound":2}
 {"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-04","inbound":1}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-04","inbound":3}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-04","inbound":2}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-04","inbound":2}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-04","inbound":2}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-04","inbound":2}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-04","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-04","inbound":1}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-04","inbound":2}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-04","inbound":3}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-10-04","inbound":3}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-04","inbound":2}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-04","inbound":1}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-04","inbound":2}
+{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-04","inbound":1}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-04","inbound":2}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-04","inbound":3}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-04","inbound":3}
 {"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-04","inbound":1}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-05","inbound":10}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-05","inbound":10}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-05","inbound":2}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-05","inbound":4}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-05","inbound":3}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-05","inbound":1}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-05","inbound":5}
+{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-10-04","inbound":2}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-04","inbound":3}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-05","inbound":2}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-05","inbound":3}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-05","inbound":13}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-05","inbound":14}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-05","inbound":2}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-05","inbound":3}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-05","inbound":7}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-05","inbound":2}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-05","inbound":4}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-05","inbound":4}
 {"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-05","inbound":2}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-05","inbound":5}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-05","inbound":3}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-05","inbound":8}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-05","inbound":4}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-05","inbound":2}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-05","inbound":2}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-05","inbound":1}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-05","inbound":4}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-05","inbound":2}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-05","inbound":3}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-05","inbound":7}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-05","inbound":2}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-05","inbound":3}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-05","inbound":3}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-05","inbound":4}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-05","inbound":1}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-05","inbound":4}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-05","inbound":8}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-05","inbound":4}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-05","inbound":1}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-05","inbound":4}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-05","inbound":1}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-05","inbound":2}
 {"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-05","inbound":2}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-05","inbound":1}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-05","inbound":1}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-05","inbound":1}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-05","inbound":1}
+{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-05","inbound":1}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-05","inbound":1}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-05","inbound":1}
 {"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-05","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-05","inbound":2}
-{"city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-05","inbound":1}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-05","inbound":2}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-05","inbound":3}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-05","inbound":3}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-05","inbound":1}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-05","inbound":1}
 {"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-10-05","inbound":2}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-05","inbound":3}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-06","inbound":2}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-06","inbound":3}
+{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-05","inbound":1}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-05","inbound":1}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-05","inbound":1}
+{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-05","inbound":1}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-05","inbound":1}
+{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-05","inbound":1}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-05","inbound":1}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-06","inbound":18}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-06","inbound":5}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-06","inbound":3}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-06","inbound":1}
 {"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-06","inbound":13}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-06","inbound":14}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-06","inbound":2}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-06","inbound":3}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-06","inbound":7}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-06","inbound":2}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-06","inbound":4}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-06","inbound":4}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-06","inbound":2}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-06","inbound":3}
+{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-06","inbound":2}
 {"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-06","inbound":3}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-06","inbound":4}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-06","inbound":1}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-06","inbound":4}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-06","inbound":8}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-06","inbound":4}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-06","inbound":1}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-06","inbound":4}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-06","inbound":1}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-06","inbound":2}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-06","inbound":2}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-06","inbound":1}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-06","inbound":1}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-06","inbound":5}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-06","inbound":2}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-06","inbound":5}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-06","inbound":1}
+{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-06","inbound":2}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-06","inbound":7}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-06","inbound":2}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-06","inbound":2}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-06","inbound":5}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-06","inbound":3}
+{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-06","inbound":2}
 {"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-06","inbound":1}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-06","inbound":1}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-06","inbound":1}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-06","inbound":1}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-06","inbound":1}
-{"city":"cuenca","sku":"FE-COND","product":"Preservativos","day":"2026-10-06","inbound":2}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-06","inbound":1}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-06","inbound":7}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-06","inbound":3}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-06","inbound":1}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-06","inbound":2}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-06","inbound":1}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-06","inbound":5}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-06","inbound":2}
+{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-06","inbound":2}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-06","inbound":3}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-06","inbound":2}
 {"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-06","inbound":1}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-06","inbound":1}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-06","inbound":1}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-06","inbound":2}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-06","inbound":2}
+{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-06","inbound":1}
+{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-10-06","inbound":2}
 {"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-06","inbound":1}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-06","inbound":1}
-{"city":"cuenca","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-06","inbound":1}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-06","inbound":1}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-07","inbound":18}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-07","inbound":5}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-07","inbound":3}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-07","inbound":1}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-07","inbound":13}
-{"city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-07","inbound":2}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-07","inbound":3}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-07","inbound":5}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-07","inbound":2}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-07","inbound":5}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-07","inbound":1}
+{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-06","inbound":1}
+{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-07","inbound":9}
+{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-07","inbound":12}
+{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-07","inbound":19}
 {"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-07","inbound":2}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-07","inbound":7}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-07","inbound":2}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-07","inbound":2}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-07","inbound":5}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-07","inbound":3}
+{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-07","inbound":5}
+{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-07","inbound":6}
+{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-07","inbound":1}
+{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-07","inbound":2}
+{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-07","inbound":4}
+{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-07","inbound":2}
+{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-07","inbound":8}
+{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-07","inbound":3}
+{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-07","inbound":1}
+{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-07","inbound":1}
+{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-07","inbound":1}
+{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-07","inbound":4}
+{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-07","inbound":3}
+{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-07","inbound":4}
+{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-07","inbound":2}
+{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-07","inbound":4}
+{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-07","inbound":4}
+{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-07","inbound":3}
+{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-07","inbound":1}
 {"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-07","inbound":2}
 {"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-07","inbound":1}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-07","inbound":1}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-07","inbound":7}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-07","inbound":3}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-07","inbound":1}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-07","inbound":2}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-07","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-07","inbound":5}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-07","inbound":2}
+{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-07","inbound":7}
+{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-07","inbound":3}
+{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-07","inbound":1}
+{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-07","inbound":2}
+{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-07","inbound":1}
 {"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-07","inbound":2}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-07","inbound":3}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-07","inbound":2}
-{"city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-07","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-07","inbound":2}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-07","inbound":2}
-{"city":"cuenca","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-07","inbound":1}
-{"city":"cuenca","sku":"FE-DIAP","product":"Pañales","day":"2026-10-07","inbound":2}
-{"city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-07","inbound":1}
+{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-07","inbound":2}
+{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-07","inbound":2}
+{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-07","inbound":1}
 {"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-07","inbound":1}
-{"city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-08","inbound":9}
-{"city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-08","inbound":12}
-{"city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-08","inbound":19}
-{"city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-08","inbound":2}
-{"city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-08","inbound":5}
-{"city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-08","inbound":6}
-{"city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-08","inbound":1}
-{"city":"guayaquil","sku":"FE-COND","product":"Preservativos","day":"2026-10-08","inbound":2}
-{"city":"guayaquil","sku":"FE-DIAP","product":"Pañales","day":"2026-10-08","inbound":4}
-{"city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-08","inbound":2}
-{"city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-08","inbound":8}
-{"city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-08","inbound":3}
-{"city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-08","inbound":1}
-{"city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-08","inbound":1}
-{"city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-08","inbound":1}
-{"city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-08","inbound":4}
-{"city":"quito","sku":"FE-DIAP","product":"Pañales","day":"2026-10-08","inbound":3}
-{"city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-08","inbound":4}
-{"city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-08","inbound":2}
-{"city":"quito","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-08","inbound":4}
-{"city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-08","inbound":4}
-{"city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","day":"2026-10-08","inbound":3}
-{"city":"quito","sku":"FE-VC500","product":"Vitamina C","day":"2026-10-08","inbound":1}
-{"city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","day":"2026-10-08","inbound":2}
-{"city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-08","inbound":1}
-{"city":"quito","sku":"FE-SUN50","product":"Protector solar","day":"2026-10-08","inbound":7}
-{"city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-08","inbound":3}
-{"city":"quito","sku":"FE-MAG","product":"Magnesio + B6","day":"2026-10-08","inbound":1}
-{"city":"quito","sku":"FE-COND","product":"Preservativos","day":"2026-10-08","inbound":2}
-{"city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-08","inbound":1}
-{"city":"quito","sku":"FE-SAL100","product":"Suero oral","day":"2026-10-08","inbound":2}
-{"city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","day":"2026-10-08","inbound":2}
-{"city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","day":"2026-10-08","inbound":2}
-{"city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","day":"2026-10-08","inbound":1}
-{"city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","day":"2026-10-08","inbound":1}
-{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-08","inbound":2}
-{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-08","inbound":2}
-{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-08","inbound":1}
-{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-08","inbound":1}
+{"city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","day":"2026-10-07","inbound":2}
+{"city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","day":"2026-10-07","inbound":2}
+{"city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","day":"2026-10-07","inbound":1}
+{"city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","day":"2026-10-07","inbound":1}

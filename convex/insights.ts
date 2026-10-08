@@ -45,9 +45,11 @@ function clamp(n: number, lo: number, hi: number) {
   return Math.max(lo, Math.min(hi, n));
 }
 
+const DAY0 = Date.parse("2026-09-10T12:00:00-05:00");
+
 function dayOffset(day: string) {
   const t = Date.parse(`${day}T12:00:00-05:00`);
-  return Math.floor((t - (AS_OF - 28 * DAY_MS)) / DAY_MS);
+  return Math.round((t - DAY0) / DAY_MS);
 }
 
 function decideAction(args: {
@@ -213,8 +215,10 @@ async function rebuild(ctx: MutationCtx, replaceRecommendations: boolean) {
   const heroes = [];
   for (const city of CITIES) {
     const local = facts.filter((row) => row.city === city);
-    local.sort((a, b) => b.score - a.score);
-    const hero = local[0];
+    const actionable = local.filter((row) => row.action === "restock" || row.action === "restock_promo");
+    const pool = actionable.length > 0 ? actionable : local;
+    pool.sort((a, b) => (actionable.length > 0 ? b.score - a.score : b.waRecent7 - a.waRecent7));
+    const hero = pool[0];
     if (!hero) continue;
     heroes.push(hero);
 

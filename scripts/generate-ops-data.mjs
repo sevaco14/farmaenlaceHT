@@ -17,7 +17,7 @@ const OUT = join(ROOT, "data", "mock");
 const AS_OF = Date.parse("2026-10-08T12:00:00-05:00");
 const DAY_MS = 86_400_000;
 const DAYS = 28;
-const WINDOW_START = AS_OF - DAYS * DAY_MS;
+const DAY0 = Date.parse("2026-09-10T00:00:00-05:00");
 
 function mulberry32(seed) {
   let a = seed >>> 0;
@@ -51,14 +51,12 @@ function poisson(lambda) {
   return k - 1;
 }
 
-function dayStamp(offset) {
-  const t = WINDOW_START + offset * DAY_MS + 12 * 3600_000;
-  return new Date(t).toISOString().slice(0, 10);
+function ecuadorDay(t) {
+  return new Date(t - 5 * 3600_000).toISOString().slice(0, 10);
 }
 
-function isoDay(t) {
-  const d = new Date(t - 5 * 3600_000);
-  return d.toISOString().slice(0, 10);
+function dayStamp(offset) {
+  return ecuadorDay(DAY0 + offset * DAY_MS + 12 * 3600_000);
 }
 
 const CITIES = [
@@ -324,7 +322,7 @@ for (let d = 0; d < DAYS; d += 1) {
         : pick(["stock_inquiry", "stock_inquiry", "stock_inquiry", "price", "promo", "symptoms"]);
       const hour = 8 + Math.floor(rand() * 13);
       const minute = Math.floor(rand() * 60);
-      const at = WINDOW_START + d * DAY_MS + hour * 3600_000 + minute * 60_000 + Math.floor(rand() * 50_000);
+      const at = DAY0 + d * DAY_MS + hour * 3600_000 + minute * 60_000 + Math.floor(rand() * 50_000);
       const branch = pick(cityBranches[city.id]);
       const who = pick(FIRST);
       const text = operational
@@ -350,7 +348,7 @@ for (let d = 0; d < DAYS; d += 1) {
         waMessages.push({
           messageId: `wa-${String(msgN).padStart(5, "0")}`,
           at: replyAt,
-          day: isoDay(replyAt) < dayStamp(d) ? dayStamp(d) : isoDay(replyAt),
+          day: ecuadorDay(replyAt),
           city: city.id,
           branchCode: branch.code,
           direction: "outbound",
