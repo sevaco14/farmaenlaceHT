@@ -185,6 +185,53 @@ export default defineSchema({
     asOf: v.string(),
   }).index("by_key", ["key"]),
 
+  liveStock: defineTable({
+    city: v.string(),
+    sku: v.string(),
+    product: v.string(),
+    category: v.string(),
+    onHand: v.number(),
+    target: v.number(),
+    baseRate: v.number(),
+    waRate: v.number(),
+    salesRate: v.number(),
+    heat: v.number(),
+    heatTarget: v.number(),
+    trend: v.union(v.string(), v.null()),
+    promoUntil: v.number(),
+    seasonPromo: v.boolean(),
+    snoozeUntil: v.number(),
+    lastBand: v.number(),
+  })
+    .index("by_city", ["city"])
+    .index("by_city_and_sku", ["city", "sku"]),
+
+  liveEvents: defineTable({
+    at: v.number(),
+    tick: v.number(),
+    city: v.string(),
+    code: v.union(
+      v.literal("WA"),
+      v.literal("INV"),
+      v.literal("PRO"),
+      v.literal("ORD"),
+    ),
+    product: v.string(),
+    text: v.string(),
+  })
+    .index("by_at", ["at"])
+    .index("by_city_and_at", ["city", "at"]),
+
+  liveClock: defineTable({
+    key: v.string(),
+    running: v.boolean(),
+    fast: v.boolean(),
+    tick: v.number(),
+    generation: v.number(),
+    aliveUntil: v.number(),
+    scheduled: v.boolean(),
+  }).index("by_key", ["key"]),
+
   insightFacts: defineTable({
     city: v.string(),
     sku: v.string(),

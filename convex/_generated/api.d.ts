@@ -15,6 +15,7 @@ import type * as agents_instructions from "../agents/instructions.js";
 import type * as agents_run from "../agents/run.js";
 import type * as comercial from "../comercial.js";
 import type * as insights from "../insights.js";
+import type * as live from "../live.js";
 import type * as mostrador from "../mostrador.js";
 
 import type {
@@ -31,6 +32,7 @@ declare const fullApi: ApiFromModules<{
   "agents/run": typeof agents_run;
   comercial: typeof comercial;
   insights: typeof insights;
+  live: typeof live;
   mostrador: typeof mostrador;
 }>;
 
