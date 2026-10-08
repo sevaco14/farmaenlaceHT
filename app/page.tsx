@@ -37,9 +37,10 @@ function messageText(text: string) {
 }
 
 type CityId = (typeof CITIES)[number]["id"];
-type Status = "pending" | "approved" | "rejected";
+type Status = "pending" | "approved" | "rejected" | "expired" | "superseded";
 
 type Signal = { city: string; source: "whatsapp" | "inventario" | "promocion"; product: string; summary: string; level: number };
+type AgentResult = { role: "whatsapp" | "inventario" | "promocion"; summary: string; rationale: string };
 type Order = {
   id: Id<"recommendations">;
   city: string;
@@ -52,6 +53,8 @@ type Order = {
   restockUnits: number | null;
   promoDays: number | null;
   createdAt: number;
+  expiresAt?: number | null;
+  decidedAt?: number | null;
 };
 
 const REDUCED = "(prefers-reduced-motion: reduce)";
@@ -103,35 +106,51 @@ export default function Page() {
   const board = useQuery(api.comercial.board, {});
   const world = useQuery(api.live.world, {});
   const [focus, setFocus] = useState<CityId>("guayaquil");
-  const [busy, setBusy] = useState<"approve" | "reject" | "reset" | "agents" | "advance" | null>(null);
-  const [agentMode, setAgentMode] = useState<"bedrock" | "fallback" | null>(null);
+  const [busy, setBusy] = useState<"approve" | "reject" | "reset" | "agents" | "advance" | "clock" | null>(null);
+  const [agentFeedback, setAgentFeedback] = useState<{ city: CityId; product: string; text: string; agents: AgentResult[] } | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [connectionError, setConnectionError] = useState<string | null>(null);
   const [announcement, setAnnouncement] = useState("");
   const reduced = useReducedMotion();
   const stockBefore = useRef<Record<string, number>>({});
 
   useEffect(() => {
-    void heartbeat();
-    const id = window.setInterval(() => void heartbeat(), HEARTBEAT_MS);
-    return () => window.clearInterval(id);
+    let active = true;
+    let inFlight = false;
+    async function pulse() {
+      if (inFlight) return;
+      inFlight = true;
+      try {
+        await heartbeat();
+        if (active) setConnectionError(null);
+      } catch {
+        if (active) setConnectionError("No se pudo conectar con la simulación. Comprueba la conexión y vuelve a intentarlo.");
+      } finally {
+        inFlight = false;
+      }
+    }
+    void pulse();
+    const id = window.setInterval(() => void pulse(), HEARTBEAT_MS);
+    return () => {
+      active = false;
+      window.clearInterval(id);
+    };
   }, [heartbeat]);
 
   async function runAgents(cityId: CityId, target: string | undefined) {
     const meta = CITIES.find((item) => item.id === cityId) ?? CITIES[0];
     setBusy("agents");
     setError(null);
+    setAgentFeedback(null);
     try {
       const result = await analyzeCity({ city: cityId, product: target });
-      setAgentMode(result.mode);
-      if (result.error && result.mode === "fallback") {
-        setError(`Agentes en modo respaldo: ${result.error}`);
-      } else {
-        setAnnouncement(
-          result.mode === "bedrock"
-            ? `Tres agentes Bedrock actualizaron la zona ${meta.label}.`
-            : `Señales actualizadas (modo respaldo) en ${meta.label}.`,
-        );
+      if (!result.ok || result.mode !== "bedrock") {
+        setError(result.error ?? "No se completó el análisis con Bedrock. Vuelve a intentarlo.");
+        return;
       }
+      const text = `${result.agents.length} agentes Bedrock analizaron los datos sintéticos de ${meta.label}.`;
+      setAgentFeedback({ city: cityId, product: target ?? "la zona", text, agents: result.agents });
+      setAnnouncement(text);
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "Los agentes no pudieron analizar la zona.");
     } finally {
@@ -147,10 +166,22 @@ export default function Page() {
   const order = orders.find((item) => item.status === "pending") ?? orders.at(0) ?? null;
   const zone = world?.cities.find((item) => item.city === focus);
   const product = order?.product ?? signals[0]?.product ?? zone?.shelves[0]?.product ?? "";
-  const wa = signals.find((signal) => signal.source === "whatsapp" && signal.product === product);
-  const inv = signals.find((signal) => signal.source === "inventario" && signal.product === product);
-  const pro = signals.find((signal) => signal.source === "promocion" && signal.product === product);
   const heroShelf = zone?.shelves.find((shelf) => shelf.product === product);
+  const wa = signals.find((signal) => signal.source === "whatsapp" && signal.product === product) ?? (heroShelf ? {
+    level: heroShelf.waLevel,
+    summary: `${heroShelf.waPerHour} consultas simuladas por hora sobre ${product}.`,
+  } : undefined);
+  const inv = heroShelf ? {
+    level: heroShelf.stockPct,
+    summary: `Stock actual de ${product} al ${heroShelf.stockPct}% en la simulación.`,
+  } : signals.find((signal) => signal.source === "inventario" && signal.product === product);
+  const pro = heroShelf ? {
+    level: heroShelf.promoLevel,
+    summary: heroShelf.promoLevel >= 100
+      ? `Promo local simulada: ${heroShelf.promoDaysRemaining} días restantes.`
+      : heroShelf.promoLevel >= 50 ? "Promo de temporada del catálogo sintético." : "Sin promoción local activa.",
+  } : signals.find((signal) => signal.source === "promocion" && signal.product === product);
+  const promoDays = heroShelf?.promoDaysRemaining ?? (order?.status === "approved" ? order.promoDays ?? 0 : 0);
   const neighbors = (zone?.shelves ?? []).filter((shelf) => shelf.product !== product).slice(0, 2);
   const zoneEvents = (world?.events ?? []).filter((event) => event.city === focus);
   const messages = zoneEvents
@@ -159,10 +190,10 @@ export default function Page() {
   const clock = world?.clock ?? null;
 
   useEffect(() => {
-    if (order?.status === "pending" && inv) stockBefore.current[focus] = inv.level;
-  }, [order?.status, inv, focus]);
+    if (order?.status === "pending" && inv) stockBefore.current[order.id] = inv.level;
+  }, [order?.id, order?.status, inv]);
 
-  function routeState(id: CityId): "pending" | "approved" | "rejected" | "clear" {
+  function routeState(id: CityId): Status | "clear" {
     const rows = (board?.recommendations ?? [])
       .filter((item) => item.city === id)
       .sort((a, b) => b.createdAt - a.createdAt);
@@ -175,11 +206,29 @@ export default function Page() {
     setBusy(decision);
     setError(null);
     try {
-      await decide({ recommendationId: order.id, decision });
+      const result = await decide({ recommendationId: order.id, decision });
       const code = orderCode(order, city.code);
-      setAnnouncement(decision === "approve" ? `Orden ${code} liberada.` : `Orden ${code} rechazada.`);
+      if (result.status === "expired" || result.status === "superseded") {
+        setError("La orden ya no está vigente. Analiza de nuevo con los agentes antes de firmar.");
+      } else {
+        setAnnouncement(result.status === "approved" ? `Orden ${code} liberada en la simulación.` : `Orden ${code} rechazada.`);
+      }
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "No se pudo registrar la firma. Intenta de nuevo.");
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  async function onClockChange(control: "running" | "fast") {
+    if (!clock || busy !== null) return;
+    setBusy("clock");
+    setError(null);
+    try {
+      if (control === "running") await setRunning({ running: !clock.running });
+      else await setFast({ fast: !clock.fast });
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : "No se pudo cambiar el ritmo de la simulación.");
     } finally {
       setBusy(null);
     }
@@ -204,7 +253,7 @@ export default function Page() {
     try {
       await resetScenario();
       stockBefore.current = {};
-      setAgentMode(null);
+      setAgentFeedback(null);
       setFocus("guayaquil");
       setAnnouncement("Demo reiniciada. Las zonas empiezan a moverse de nuevo.");
     } catch (caught) {
@@ -240,6 +289,7 @@ export default function Page() {
                     className="route"
                     aria-pressed={focus === item.id}
                     onClick={() => setFocus(item.id)}
+                    disabled={busy !== null}
                   >
                     <span className="route-code">{item.code}</span>
                     <span className="route-name">{item.label}</span>
@@ -252,7 +302,7 @@ export default function Page() {
                             ? "Liberada"
                             : state === "rejected"
                               ? "Rechazada"
-                              : "Estable"}
+                              : state === "expired" || state === "superseded" ? "Reanalizar" : "Estable"}
                     </span>
                   </button>
                 </li>
@@ -272,9 +322,7 @@ export default function Page() {
             <span className="ghost-label">
               {busy === "agents"
                 ? "Agentes analizando…"
-                : agentMode === "bedrock"
-                  ? "Reanalizar (Bedrock)"
-                  : "Analizar con agentes"}
+                : "Analizar con Bedrock"}
             </span>
           </button>
           <button type="button" className="ghost" onClick={() => void onReset()} disabled={busy !== null}>
@@ -304,25 +352,27 @@ export default function Page() {
                   </>
                 )}
                 {status === "rejected" && "Rechazada"}
+                {status === "expired" && "Vencida"}
+                {status === "superseded" && "Reemplazada"}
                 {!order && (loading ? "Leyendo" : "En observación")}
               </p>
             </header>
 
             <h1 id="order-title" className="order-title">
-              {loading ? `Leyendo la zona ${city.label}…` : order ? keepTogether(order.headline, product) : `${city.label} no necesita acción hoy.`}
+              {loading ? `Leyendo la zona ${city.label}…` : order ? keepTogether(order.headline, product) : `${city.label}: sin orden pendiente.`}
             </h1>
 
             {order ? (
               <OrderFields order={order} city={city.label} />
             ) : loading ? null : (
               <p className="order-quiet">
-                Los tres agentes siguen cruzando consultas, stock y promociones de {product}. Si algo se mueve, la orden
-                aparece aquí para tu firma.
+                Analiza {product} con Bedrock para cruzar consultas, stock y promociones. Si corresponde una acción,
+                la propuesta aparece aquí para tu firma.
               </p>
             )}
 
             <section className="signals" aria-labelledby="signals-title">
-              <h2 id="signals-title">Por qué: tres señales cruzadas</h2>
+              <h2 id="signals-title">Señales de {product || "la zona"}</h2>
               {board === undefined ? (
                 <p className="signals-loading">Leyendo señales de la zona…</p>
               ) : (
@@ -348,7 +398,7 @@ export default function Page() {
                       unit="stock"
                       tone={released ? "released" : inv.level < 30 ? "alert" : "calm"}
                     >
-                      <StockCells level={inv.level} before={released ? (stockBefore.current[focus] ?? null) : null} />
+                      <StockCells level={inv.level} before={released && order ? (stockBefore.current[order.id] ?? null) : null} />
                     </SignalRow>
                   )}
                   {pro && (
@@ -356,7 +406,7 @@ export default function Page() {
                       code="PRO"
                       name="Catálogo y promociones"
                       summary={pro.summary}
-                      value={promoState(pro.level) === "live" ? "7" : promoState(pro.level) === "season" ? "Sí" : "0"}
+                      value={promoState(pro.level) === "live" ? String(promoDays) : promoState(pro.level) === "season" ? "Sí" : "0"}
                       unit={promoState(pro.level) === "season" ? "temporada" : "días promo"}
                       tone={promoState(pro.level) === "live" ? "released" : status === "pending" ? "alert" : "calm"}
                     >
@@ -368,14 +418,26 @@ export default function Page() {
             </section>
 
             {order && (
-              <blockquote className="reason">
-                <p>{order.detail}</p>
-                <footer>
+              <details className="reason" key={order.id}>
+                <summary>
                   {order.proposedBy === "agentes-bedrock"
-                    ? "Tres agentes Bedrock · WA, INV y PRO"
-                    : "Analista comercial · cruzó WA, INV y PRO"}
-                </footer>
-              </blockquote>
+                    ? "Ver evidencia · 3 agentes Bedrock (WA, INV, PRO)"
+                    : "Ver evidencia · reglas de la demo"}
+                </summary>
+                <blockquote><p>{order.detail}</p></blockquote>
+              </details>
+            )}
+
+            {agentFeedback?.city === focus && (
+              <details className="order-quiet">
+                <summary>Último análisis Bedrock · {agentFeedback.product}</summary>
+                {agentFeedback.agents.map((agent) => (
+                  <p key={agent.role}>
+                    <b>{agent.role === "whatsapp" ? "WhatsApp" : agent.role === "inventario" ? "Inventario" : "Promociones"}:</b>{" "}
+                    {agent.summary} {agent.rationale}
+                  </p>
+                ))}
+              </details>
             )}
 
             <footer className="sign">
@@ -386,7 +448,7 @@ export default function Page() {
               <div className="sign-body">
                 {status === "pending" && order && (
                   <>
-                    <p className="sign-note">Nada se ejecuta sin tu firma.</p>
+                    <p className="sign-note">Tu firma aplica la propuesta en la simulación.</p>
                     <div className="sign-actions">
                       <button type="button" className="sign-approve" onClick={() => void onDecide("approve")} disabled={busy !== null}>
                         <PenLine aria-hidden="true" size={18} strokeWidth={2} />
@@ -406,21 +468,25 @@ export default function Page() {
                       <small>Primera línea</small>
                     </div>
                     <p className="sign-done">
-                      <b>Firmada por el encargado de zona.</b> Reabastecimiento de {orderTerms(order).units ?? "las"} unidades
-                      de {order.product} en camino
-                      {orderTerms(order).days ? ` y promo SmartClub activa por ${orderTerms(order).days} días.` : "."}
+                      <b>Firmada por el encargado de zona.</b> Se simuló un reabastecimiento de {orderTerms(order).units ?? "las"} unidades
+                      de {order.product}
+                      {orderTerms(order).days ? ` y una promo SmartClub de ${orderTerms(order).days} días.` : "."}
                     </p>
                   </>
                 )}
                 {status === "rejected" && (
                   <p className="sign-done">
-                    <b>Rechazada por el encargado de zona.</b> Los agentes siguen observando la zona.
+                    <b>Rechazada por el encargado de zona.</b> Puedes solicitar otro análisis con Bedrock.
                   </p>
                 )}
+                {(status === "expired" || status === "superseded") && (
+                  <p className="sign-done">La propuesta ya no está vigente. Analiza con Bedrock para actualizarla.</p>
+                )}
                 {!order && !loading && <p className="sign-done">Sin orden pendiente en {city.label}.</p>}
-                {error && (
+                {agentFeedback?.city === focus && <p className="sign-done" role="status">{agentFeedback.text}</p>}
+                {(error || connectionError) && (
                   <p className="sign-error" role="alert">
-                    {error}
+                    {error || connectionError}
                   </p>
                 )}
               </div>
@@ -432,45 +498,49 @@ export default function Page() {
           <div
             className="stage-canvas"
             role="img"
-            aria-label={`Maqueta de la sucursal de ${city.label}: góndola de ${product} al ${inv?.level ?? 0}% y tres agentes en sus puestos.`}
+            aria-label={`Maqueta simulada de ${city.label}: ${product}, ${inv ? `stock al ${inv.level}%` : "stock pendiente de lectura"} y tres agentes en sus puestos.`}
           >
-            <Branch
+            {inv && <Branch
               zone={city.id}
               product={product || "Sin producto"}
               category={heroShelf?.category}
               neighbors={neighbors}
               messages={messages}
               queries={wa?.level ?? 0}
-              stock={inv?.level ?? 0}
+              stock={inv.level}
               promo={pro?.level ?? 0}
+              promoDays={promoDays}
               alert={status === "pending"}
               released={released}
               motion={!reduced}
-            />
+            />}
           </div>
           <div className="stage-head">
             <h2 id="stage-title">Zona {city.label}</h2>
             <p>
-              {status === "pending" && `Tres agentes cruzan señales sobre ${product}.`}
-              {status === "approved" && `Orden liberada: reabasteciendo ${product}.`}
+              {status === "pending" && (order?.proposedBy === "agentes-bedrock"
+                ? `Tres agentes Bedrock analizaron ${product}.`
+                : `Propuesta de reglas demo sobre ${product}. Analiza con Bedrock para usar los agentes.`)}
+              {status === "approved" && `Reabastecimiento simulado de ${product}.`}
               {status === "rejected" && `Orden rechazada. ${product} sigue en observación.`}
-              {!order && (loading ? "Leyendo señales de la zona…" : `Sin alertas. ${product} en observación.`)}
+              {(status === "expired" || status === "superseded") && `Propuesta anterior de ${product}. Requiere otro análisis.`}
+              {!order && (loading ? "Leyendo señales de la zona…" : `Analiza ${product} con los agentes Bedrock.`)}
             </p>
-            {zone?.trend && <p className="stage-trend">Contexto: {zone.trend}</p>}
+            {heroShelf?.trend && <p className="stage-trend">Contexto sintético: {heroShelf.trend}</p>}
           </div>
           <aside className="live" aria-labelledby="live-title">
             <div className="live-bar">
               <p id="live-title" className="live-clock" data-running={clock?.running ?? false}>
                 <span className="live-dot" aria-hidden="true" />
-                {clock ? (clock.running ? "En vivo" : "En pausa") : "Conectando"}
+                {clock ? (clock.running ? "Simulación" : "Simulación en pausa") : "Conectando"}
                 {clock && <time className="num">{formatClock(clock.simTime)}</time>}
               </p>
               <div className="live-actions">
                 <button
                   type="button"
                   className="live-btn"
-                  onClick={() => void setRunning({ running: !(clock?.running ?? true) })}
-                  disabled={!clock}
+                  onClick={() => void onClockChange("running")}
+                  disabled={!clock || busy !== null}
                   aria-label={clock?.running ? "Pausar simulación" : "Reanudar simulación"}
                 >
                   {clock?.running ? <Pause aria-hidden="true" size={14} /> : <Play aria-hidden="true" size={14} />}
@@ -479,8 +549,8 @@ export default function Page() {
                   type="button"
                   className="live-btn"
                   aria-pressed={clock?.fast ?? false}
-                  onClick={() => void setFast({ fast: !(clock?.fast ?? false) })}
-                  disabled={!clock}
+                  onClick={() => void onClockChange("fast")}
+                  disabled={!clock || busy !== null}
                   aria-label="Acelerar simulación"
                 >
                   <FastForward aria-hidden="true" size={14} />
@@ -509,7 +579,7 @@ export default function Page() {
             <p className="manifest-scale">
               172 mil transacciones al día · 17.000 productos · 1.422 puntos de venta · 10 años de historial
             </p>
-            <p className="manifest-stack">Capa sobre SAP, Big Data y Airflow</p>
+            <p className="manifest-stack">Demo: datos y ejecución sintéticos · Análisis con Amazon Bedrock</p>
           </footer>
         </section>
       </main>

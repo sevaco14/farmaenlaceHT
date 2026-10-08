@@ -1,0 +1,58 @@
+# Deploy beside nginx.conf and web/ at /opt/farmaenlace.
+# Official images resolved to immutable registry digests on 2026-10-08.
+services:
+  backend:
+    image: ghcr.io/get-convex/convex-backend@sha256:d715e9ec088784407ca4ba2d3db592702cd328d02c76cdca3852c0018f2a76b4
+    restart: unless-stopped
+    stop_grace_period: 30s
+    stop_signal: SIGINT
+    # CLI access on the host remains private; public traffic comes through web.
+    ports:
+      - "127.0.0.1:3210:3210"
+    volumes:
+      - /opt/farmaenlace/convex/data:/convex/data
+    environment:
+      INSTANCE_NAME: ${INSTANCE_NAME:-farmaenlace-demo}
+      INSTANCE_SECRET: ${INSTANCE_SECRET:?Set a persistent random instance secret}
+      CONVEX_CLOUD_ORIGIN: ${PUBLIC_ORIGIN:?Set the public HTTPS origin}
+      CONVEX_SITE_ORIGIN: ${PUBLIC_ORIGIN:?Set the public HTTPS origin}
+      AWS_REGION: us-east-1
+      AWS_DEFAULT_REGION: us-east-1
+      DISABLE_BEACON: "true"
+      DISABLE_METRICS_ENDPOINT: "true"
+      DOCUMENT_RETENTION_DELAY: "172800"
+      APPLICATION_MAX_CONCURRENT_NODE_ACTIONS: "4"
+      NODE_ACTION_USER_TIMEOUT_SECS: "600"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3210/version"]
+      interval: 5s
+      timeout: 4s
+      start_period: 30s
+      retries: 12
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  web:
+    image: nginx@sha256:0985e772fb9f729e6fa0980da05fca5d9c468e870eed43071545afa9d2e27d94
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./web:/usr/share/nginx/html:ro
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/health"]
+      interval: 15s
+      timeout: 4s
+      retries: 3
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

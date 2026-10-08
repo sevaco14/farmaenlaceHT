@@ -1,8 +1,8 @@
 import { v } from "convex/values";
 import { applyDecision, hasWorld, resetWorld } from "./live";
-import type { Id } from "./_generated/dataModel";
+import type { Doc } from "./_generated/dataModel";
 import type { MutationCtx, QueryCtx } from "./_generated/server";
-import { mutation, query } from "./_generated/server";
+import { internalMutation, mutation, query } from "./_generated/server";
 
 const source = v.union(
   v.literal("whatsapp"),
@@ -14,6 +14,8 @@ const status = v.union(
   v.literal("pending"),
   v.literal("approved"),
   v.literal("rejected"),
+  v.literal("expired"),
+  v.literal("superseded"),
 );
 
 const signalResult = v.object({
@@ -36,6 +38,8 @@ const recommendationResult = v.object({
   restockUnits: v.union(v.number(), v.null()),
   promoDays: v.union(v.number(), v.null()),
   createdAt: v.number(),
+  expiresAt: v.union(v.number(), v.null()),
+  decidedAt: v.union(v.number(), v.null()),
 });
 
 const CITIES = ["guayaquil", "quito", "cuenca"] as const;
@@ -45,19 +49,7 @@ async function actorOf(ctx: QueryCtx | MutationCtx) {
   return identity?.tokenIdentifier ?? "gerente-demo";
 }
 
-function toRecommendation(doc: {
-  _id: Id<"recommendations">;
-  _creationTime: number;
-  city: string;
-  product: string;
-  headline: string;
-  detail: string;
-  status: "pending" | "approved" | "rejected";
-  proposedBy: string;
-  decidedBy: string | null;
-  restockUnits?: number;
-  promoDays?: number;
-}) {
+function toRecommendation(doc: Doc<"recommendations">) {
   return {
     id: doc._id,
     city: doc.city,
@@ -70,6 +62,8 @@ function toRecommendation(doc: {
     restockUnits: doc.restockUnits ?? null,
     promoDays: doc.promoDays ?? null,
     createdAt: doc._creationTime,
+    expiresAt: doc.expiresAt ?? null,
+    decidedAt: doc.decidedAt ?? null,
   };
 }
 
@@ -98,7 +92,7 @@ export const board = query({
     }
 
     const recommendations = [];
-    for (const state of ["pending", "approved", "rejected"] as const) {
+    for (const state of ["pending", "approved", "rejected", "expired", "superseded"] as const) {
       const rows = await ctx.db
         .query("recommendations")
         .withIndex("by_status", (q) => q.eq("status", state))
@@ -140,12 +134,37 @@ export const decide = mutation({
     if (recommendation.status !== "pending") return toRecommendation(recommendation);
 
     const actor = await actorOf(ctx);
-    const next = args.decision === "approve" ? "approved" : "rejected";
-    await ctx.db.patch(recommendation._id, { status: next, decidedBy: actor });
-    await applyDecision(ctx, recommendation, args.decision);
+    const now = Date.now();
+    const expired = now >= (recommendation.expiresAt ?? recommendation._creationTime + 15 * 60_000);
+    let stale = false;
+    if (recommendation.liveStockId) {
+      const stock = await ctx.db.get(recommendation.liveStockId);
+      stale = !stock || (stock.decisionRevision ?? 0) !== (recommendation.decisionRevision ?? 0) ||
+        stock.target !== recommendation.inventoryTarget ||
+        (recommendation.inventoryOnHand !== undefined && stock.onHand > recommendation.inventoryOnHand) ||
+        (args.decision === "approve" && stock.onHand / stock.target >= 0.4);
+    }
+    const next = expired ? "expired" : stale ? "superseded" : args.decision === "approve" ? "approved" : "rejected";
+    if (!expired && !stale) {
+      const applied = await applyDecision(ctx, recommendation, args.decision);
+      if (!applied) throw new Error("El inventario del escenario cambió. Vuelve a analizar antes de decidir.");
+    }
+    await ctx.db.patch(recommendation._id, { status: next, decidedBy: actor, decidedAt: now });
 
     const updated = await ctx.db.get(recommendation._id);
     if (!updated) throw new Error("No se pudo leer la sugerencia.");
     return toRecommendation(updated);
+  },
+});
+
+export const expireRecommendation = internalMutation({
+  args: { recommendationId: v.id("recommendations") },
+  returns: v.null(),
+  handler: async (ctx, args) => {
+    const row = await ctx.db.get(args.recommendationId);
+    if (row?.status === "pending" && Date.now() >= (row.expiresAt ?? row._creationTime + 15 * 60_000)) {
+      await ctx.db.patch(row._id, { status: "expired", decidedAt: Date.now() });
+    }
+    return null;
   },
 });

@@ -85,12 +85,29 @@ export default defineSchema({
       v.literal("pending"),
       v.literal("approved"),
       v.literal("rejected"),
+      v.literal("expired"),
+      v.literal("superseded"),
     ),
     proposedBy: v.string(),
     decidedBy: v.union(v.string(), v.null()),
     restockUnits: v.optional(v.number()),
     promoDays: v.optional(v.number()),
-  }).index("by_status", ["status"]),
+    sku: v.optional(v.string()),
+    expiresAt: v.optional(v.number()),
+    decidedAt: v.optional(v.number()),
+    liveStockId: v.optional(v.id("liveStock")),
+    inventoryOnHand: v.optional(v.number()),
+    inventoryTarget: v.optional(v.number()),
+    decisionRevision: v.optional(v.number()),
+  }).index("by_status", ["status"])
+    .index("by_city_and_status", ["city", "status"]),
+
+  bedrockGate: defineTable({
+    key: v.string(),
+    leaseId: v.optional(v.string()),
+    leaseUntil: v.number(),
+    nextAllowedAt: v.number(),
+  }).index("by_key", ["key"]),
 
   catalogItems: defineTable({
     sku: v.string(),
@@ -186,6 +203,8 @@ export default defineSchema({
   }).index("by_key", ["key"]),
 
   liveStock: defineTable({
+    decisionRevision: v.optional(v.number()),
+    lastAnalysisAt: v.optional(v.number()),
     city: v.string(),
     sku: v.string(),
     product: v.string(),

@@ -24,6 +24,7 @@ export type BranchProps = {
   queries: number;
   stock: number;
   promo: number;
+  promoDays?: number;
   alert: boolean;
   released: boolean;
   motion: boolean;
@@ -324,7 +325,7 @@ function Counter() {
   );
 }
 
-function PromoTotem({ state }: { state: "off" | "season" | "live" }) {
+function PromoTotem({ state, days }: { state: "off" | "season" | "live"; days: number }) {
   const panel = state === "live" ? C.lime : state === "season" ? C.navy : C.promoOff;
   return (
     <group position={[-1.85, 0, 1.75]} rotation={[0, Math.PI / 4, 0]}>
@@ -344,7 +345,7 @@ function PromoTotem({ state }: { state: "off" | "season" | "live" }) {
                 SmartClub
               </Text>
               <Text position={[0, -0.06, 0]} font={FONT_REGULAR} fontSize={0.085} color={state === "live" ? C.navy : "#c9d3f2"} anchorX="center" anchorY="middle" maxWidth={0.82} textAlign="center">
-                {state === "live" ? "Promo local · 7 días" : "Promo de temporada"}
+                {state === "live" ? `Promo simulada · ${days} días` : "Promo de temporada"}
               </Text>
             </group>
           )}
@@ -448,7 +449,7 @@ function Bubbles({ messages, active }: { messages: Message[]; active: boolean })
 }
 
 function Scene(props: BranchProps) {
-  const { product, category, neighbors, messages, queries, stock, promo, alert, released, motion } = props;
+  const { product, category, neighbors, messages, queries, stock, promo, promoDays = 0, alert, released, motion } = props;
   const clock = useThree((state) => state.clock);
   const clockStart = useRef<number | null>(null);
   const previous = useRef({ released, stock });
@@ -458,7 +459,13 @@ function Scene(props: BranchProps) {
   useEffect(() => {
     const was = previous.current;
     previous.current = { released, stock };
-    if (!released || was.released) return;
+    if (!released) {
+      setDrop(null);
+      setSettled(true);
+      clockStart.current = null;
+      return;
+    }
+    if (was.released) return;
     if (!motion) {
       setSettled(true);
       return;
@@ -466,9 +473,18 @@ function Scene(props: BranchProps) {
     clockStart.current = clock.elapsedTime;
     setDrop({ before: slotsFor(was.stock), key: Date.now() });
     setSettled(false);
-    const id = window.setTimeout(() => setSettled(true), 1700);
-    return () => window.clearTimeout(id);
   }, [released, stock, motion, clock]);
+
+  // Stock keeps changing while the simulation runs. Its updates must not cancel
+  // the timer that completes the approval animation.
+  useEffect(() => {
+    if (!drop || !motion) {
+      setSettled(true);
+      return;
+    }
+    const id = window.setTimeout(() => setSettled(true), 2700);
+    return () => window.clearTimeout(id);
+  }, [drop, motion]);
 
   const celebrating = released && settled && drop !== null;
   const since = drop?.key ?? 0;
@@ -492,7 +508,7 @@ function Scene(props: BranchProps) {
       />
       <SideGondola x={1.45} shelf={neighbors[1]} seed={29} />
       <Counter />
-      <PromoTotem state={promoState} />
+      <PromoTotem state={promoState} days={promoDays} />
       {released && <Pallet dropping={drop !== null} clockStart={clockStart} />}
       <ScanBeam on={alert && !released} from={BEAM_FROM} to={BEAM_TO} />
 
@@ -511,7 +527,7 @@ function Scene(props: BranchProps) {
         <Html position={[0, 2.25, 0]} center zIndexRange={[20, 0]} style={{ pointerEvents: "none" }}>
           <Pill
             code="INV"
-            text={released ? `Reabastecido · ${stock}%` : `Stock ${stock}%`}
+            text={released ? `Stock simulado · ${stock}%` : `Stock ${stock}%`}
             tone={released ? "released" : stock < 30 ? "alert" : "calm"}
           />
         </Html>
@@ -522,7 +538,7 @@ function Scene(props: BranchProps) {
         <Html position={[0, 2.25, 0]} center zIndexRange={[20, 0]} style={{ pointerEvents: "none" }}>
           <Pill
             code="PRO"
-            text={promo >= 100 ? "SmartClub · 7 días" : promo >= 50 ? "Promo vigente" : "Sin promo local"}
+            text={promo >= 100 ? `SmartClub simulado · ${promoDays} días` : promo >= 50 ? "Promo vigente" : "Sin promo local"}
             tone={promo >= 100 ? "released" : alert ? "alert" : "calm"}
           />
         </Html>
@@ -557,7 +573,7 @@ export function Branch(props: BranchProps) {
       <directionalLight position={[-6, 5, 3]} intensity={0.35} />
       <SurfaceProvider>
         <Suspense fallback={null}>
-          <Scene key={props.zone} {...props} />
+          <Scene key={`${props.zone}:${props.product}`} {...props} />
         </Suspense>
       </SurfaceProvider>
       <ContactShadows position={[0, -0.37, 0]} scale={18} blur={2.6} opacity={0.5} far={2} color="#00103d" frames={1} />

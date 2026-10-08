@@ -10,6 +10,7 @@
 
 import type * as agentApply from "../agentApply.js";
 import type * as agentData from "../agentData.js";
+import type * as agentRateLimit from "../agentRateLimit.js";
 import type * as agents_bedrock from "../agents/bedrock.js";
 import type * as agents_instructions from "../agents/instructions.js";
 import type * as agents_run from "../agents/run.js";
@@ -27,6 +28,7 @@ import type {
 declare const fullApi: ApiFromModules<{
   agentApply: typeof agentApply;
   agentData: typeof agentData;
+  agentRateLimit: typeof agentRateLimit;
   "agents/bedrock": typeof agents_bedrock;
   "agents/instructions": typeof agents_instructions;
   "agents/run": typeof agents_run;
