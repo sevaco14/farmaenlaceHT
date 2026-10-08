@@ -62,3 +62,25 @@ export const PRODUCT_LOOK: Record<string, { body: string; band: string; shape: "
   "Losartán 50 mg": { body: "#cfe3d8", band: "#0b1660", shape: "box" },
   "Suero oral": { body: "#9fd6d6", band: "#ffffff", shape: "box" },
 };
+
+type ProductLook = (typeof PRODUCT_LOOK)[string];
+
+const CATEGORY_LOOK: Record<string, ProductLook> = {
+  vitaminas: { body: "#f2b045", band: "#ffffff", shape: "box" },
+  analgesicos: { body: "#e8eef7", band: "#c8102e", shape: "box" },
+  antisepticos: { body: "#ffffff", band: "#2b3f99", shape: "bottle" },
+  dermocosmetica: { body: "#f6c744", band: "#ffffff", shape: "tube" },
+  antihistaminicos: { body: "#dcd3f2", band: "#3b2a8c", shape: "box" },
+  gastro: { body: "#f4c9c9", band: "#8c1a2b", shape: "box" },
+  cardiovascular: { body: "#cfe3d8", band: "#0b1660", shape: "box" },
+  metabolico: { body: "#d6e4f5", band: "#001a8c", shape: "box" },
+  antibioticos: { body: "#ffffff", band: "#d94f1e", shape: "box" },
+  hidratacion: { body: "#9fd6d6", band: "#ffffff", shape: "bottle" },
+  curacion: { body: "#ffffff", band: "#7fb3e0", shape: "box" },
+  infantil: { body: "#bfe0f7", band: "#ffffff", shape: "box" },
+  higiene: { body: "#cfeec2", band: "#2e7d32", shape: "bottle" },
+};
+
+export function lookFor(product: string, category?: string): ProductLook {
+  return PRODUCT_LOOK[product] ?? (category ? CATEGORY_LOOK[category] : undefined) ?? { body: "#e9edf3", band: "#001a8c", shape: "box" };
+}

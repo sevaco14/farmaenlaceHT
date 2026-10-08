@@ -6,15 +6,20 @@ import { Suspense, useEffect, useLayoutEffect, useMemo, useRef, useState } from 
 import type { ReactNode, RefObject } from "react";
 import * as THREE from "three";
 import { Figure, type Activity, type Look } from "./figure";
-import { C, PRODUCT_LOOK } from "./palette";
+import { C, lookFor, type PRODUCT_LOOK } from "./palette";
 import { Box, Cylinder, SurfaceContext, useSurfaces, type Point } from "./primitives";
 
 const FONT_BOLD = "/fonts/archivo-800.woff";
 const FONT_REGULAR = "/fonts/archivo-400.woff";
 
+export type Shelf = { product: string; category: string; stockPct: number };
+
 export type BranchProps = {
   zone: string;
   product: string;
+  category?: string;
+  neighbors: Shelf[];
+  messages: string[];
   queries: number;
   stock: number;
   promo: number;
@@ -174,6 +179,44 @@ function FillerGondola({ x, seed }: { x: number; seed: number }) {
   );
 }
 
+function ShelfHeader({ x, label, tone }: { x: number; label: string; tone: "watched" | "side" }) {
+  const watched = tone === "watched";
+  return (
+    <group position={[x, 2.36, -2.6]}>
+      <Box s={[2.04, 0.42, 0.06]} color={watched ? C.navy : C.paper} />
+      <Text
+        position={[0, 0, 0.04]}
+        font={FONT_BOLD}
+        fontSize={watched ? 0.2 : 0.16}
+        color={watched ? C.paper : C.navy}
+        anchorX="center"
+        anchorY="middle"
+        letterSpacing={-0.02}
+        maxWidth={1.9}
+      >
+        {label}
+      </Text>
+    </group>
+  );
+}
+
+function SideGondola({ x, shelf, seed }: { x: number; shelf: Shelf | undefined; seed: number }) {
+  if (!shelf) return <FillerGondola x={x} seed={seed} />;
+  const look = lookFor(shelf.product, shelf.category);
+  const count = slotsFor(shelf.stockPct);
+  return (
+    <group>
+      <GondolaFrame x={x} width={2} />
+      <ShelfHeader x={x} label={shelf.product} tone="side" />
+      {Array.from({ length: count }, (_, index) => (
+        <ProductUnit key={index} index={index} x={x} look={look} dropAt={null} clockStart={NO_CLOCK} />
+      ))}
+    </group>
+  );
+}
+
+const NO_CLOCK: RefObject<number | null> = { current: null };
+
 function slotPosition(index: number, x: number): Point {
   const column = Math.floor(index / SHELVES);
   const level = index % SHELVES;
@@ -229,26 +272,23 @@ function ProductUnit({
 function WatchedGondola({
   x,
   product,
+  category,
   count,
   before,
   clockStart,
 }: {
   x: number;
   product: string;
+  category?: string;
   count: number;
   before: number | null;
   clockStart: RefObject<number | null>;
 }) {
-  const look = PRODUCT_LOOK[product] ?? PRODUCT_LOOK["Vitamina C"];
+  const look = lookFor(product, category);
   return (
     <group>
       <GondolaFrame x={x} width={2} />
-      <group position={[x, 2.36, -2.6]}>
-        <Box s={[2.04, 0.42, 0.06]} color={C.navy} />
-        <Text position={[0, 0, 0.04]} font={FONT_BOLD} fontSize={0.2} color={C.paper} anchorX="center" anchorY="middle" letterSpacing={-0.02}>
-          {product}
-        </Text>
-      </group>
+      <ShelfHeader x={x} label={product} tone="watched" />
       {Array.from({ length: count }, (_, index) => (
         <ProductUnit
           key={`${product}-${index}`}
@@ -389,37 +429,25 @@ function Pill({ code, text, tone }: { code: string; text: string; tone: Tone }) 
   );
 }
 
-const QUERIES = (product: string) => [
-  `¿Tienen ${product.toLowerCase()} de 1 g?`,
-  `¿Hay promo en ${product.toLowerCase()}?`,
-  `¿Les queda ${product.toLowerCase()} en la sucursal?`,
-  `Necesito 3 cajas de ${product.toLowerCase()}`,
-];
-
-function Bubbles({ product, active, motion }: { product: string; active: boolean; motion: boolean }) {
-  const [tick, setTick] = useState(0);
-  useEffect(() => {
-    if (!active || !motion) return;
-    const id = window.setInterval(() => setTick((value) => value + 1), 1900);
-    return () => window.clearInterval(id);
-  }, [active, motion]);
-  if (!active) return null;
-  const lines = QUERIES(product);
-  const shown = motion ? [tick - 1, tick].filter((value) => value >= 0) : [0];
+function Bubbles({ messages, active }: { messages: string[]; active: boolean }) {
+  if (!active || messages.length === 0) return null;
   return (
     <div className="chat-stream" aria-hidden="true">
-      {shown.map((value) => (
-        <p key={value} className="chat-bubble">
-          <b>WA</b>
-          {lines[value % lines.length]}
-        </p>
-      ))}
+      {messages
+        .slice(0, 2)
+        .reverse()
+        .map((text) => (
+          <p key={text} className="chat-bubble">
+            <b>WA</b>
+            {text}
+          </p>
+        ))}
     </div>
   );
 }
 
 function Scene(props: BranchProps) {
-  const { product, queries, stock, promo, alert, released, motion } = props;
+  const { product, category, neighbors, messages, queries, stock, promo, alert, released, motion } = props;
   const clock = useThree((state) => state.clock);
   const clockStart = useRef<number | null>(null);
   const previous = useRef({ released, stock });
@@ -451,9 +479,17 @@ function Scene(props: BranchProps) {
   return (
     <group>
       <Room />
-      <FillerGondola x={-2.95} seed={11} />
-      <WatchedGondola x={-0.75} product={product} count={count} before={drop?.before ?? null} clockStart={clockStart} />
-      <FillerGondola x={1.45} seed={29} />
+      <SideGondola x={-2.95} shelf={neighbors[0]} seed={11} />
+      <WatchedGondola
+        key={product}
+        x={-0.75}
+        product={product}
+        category={category}
+        count={count}
+        before={drop?.before ?? null}
+        clockStart={clockStart}
+      />
+      <SideGondola x={1.45} shelf={neighbors[1]} seed={29} />
       <Counter />
       <PromoTotem state={promoState} />
       {released && <Pallet dropping={drop !== null} clockStart={clockStart} />}
@@ -465,7 +501,7 @@ function Scene(props: BranchProps) {
           <Pill code="WA" text={queries >= 60 ? "Pico de consultas" : "Consultas estables"} tone={queries >= 60 && !released ? "alert" : "calm"} />
         </Html>
         <Html position={[0.55, 2.55, -0.55]} zIndexRange={[19, 0]} style={{ pointerEvents: "none" }}>
-          <Bubbles product={product} active={queries >= 60 && !released} motion={motion} />
+          <Bubbles messages={messages} active={!released} />
         </Html>
       </group>
 
