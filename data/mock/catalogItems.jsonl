@@ -1,0 +1,16 @@
+{"sku":"FE-VC500","name":"Vitamina C","category":"vitaminas","form":"tableta 500 mg"}
+{"sku":"FE-PARA500","name":"Paracetamol 500 mg","category":"analgesicos","form":"tableta 500 mg"}
+{"sku":"FE-IBU400","name":"Ibuprofeno 400 mg","category":"analgesicos","form":"tableta 400 mg"}
+{"sku":"FE-ALC70","name":"Alcohol 70%","category":"antisepticos","form":"frasco 500 ml"}
+{"sku":"FE-SUN50","name":"Protector solar","category":"dermocosmetica","form":"FPS 50 90 ml"}
+{"sku":"FE-LOR10","name":"Loratadina 10 mg","category":"antihistaminicos","form":"tableta 10 mg"}
+{"sku":"FE-OMEP20","name":"Omeprazol 20 mg","category":"gastro","form":"capsula 20 mg"}
+{"sku":"FE-LOS50","name":"Losartán 50 mg","category":"cardiovascular","form":"tableta 50 mg"}
+{"sku":"FE-MET850","name":"Metformina 850 mg","category":"metabolico","form":"tableta 850 mg"}
+{"sku":"FE-AMX500","name":"Amoxicilina 500 mg","category":"antibioticos","form":"capsula 500 mg"}
+{"sku":"FE-SAL100","name":"Suero oral","category":"hidratacion","form":"sobre 20.5 g"}
+{"sku":"FE-GAS10","name":"Gasas estériles","category":"curacion","form":"caja 10 u"}
+{"sku":"FE-COND","name":"Preservativos","category":"salud_sexual","form":"caja 3 u"}
+{"sku":"FE-DIAP","name":"Pañales","category":"infantil","form":"paquete talla M"}
+{"sku":"FE-JAB","name":"Jabón antibacterial","category":"higiene","form":"barra 90 g"}
+{"sku":"FE-MAG","name":"Magnesio + B6","category":"vitaminas","form":"tableta"}

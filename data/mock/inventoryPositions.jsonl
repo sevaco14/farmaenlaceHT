@@ -1,0 +1,768 @@
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":10,"target":60,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":23,"target":46,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":40,"target":57,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":38,"target":50,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":27,"target":32,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":34,"target":44,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":48,"target":59,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":55,"target":60,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":36,"target":53,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":34,"target":48,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":35,"target":52,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":37,"target":54,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":38,"target":51,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":24,"target":31,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":49,"target":56,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"GUA-01","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":39,"target":47,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":10,"target":57,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":25,"target":58,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":39,"target":47,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":43,"target":51,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":21,"target":30,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":39,"target":50,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":38,"target":46,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":46,"target":53,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":34,"target":47,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":41,"target":58,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":34,"target":53,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":33,"target":45,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":41,"target":49,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":24,"target":30,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":36,"target":47,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"GUA-02","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":35,"target":53,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":9,"target":51,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":28,"target":58,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":36,"target":47,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":37,"target":50,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":25,"target":33,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":49,"target":57,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":39,"target":50,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":35,"target":46,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":38,"target":50,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":31,"target":44,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":40,"target":56,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":41,"target":55,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":57,"target":60,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":25,"target":31,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":38,"target":52,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"GUA-03","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":46,"target":59,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":10,"target":57,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":27,"target":56,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":41,"target":47,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":38,"target":49,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":23,"target":28,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":42,"target":56,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":36,"target":55,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":46,"target":58,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":55,"target":59,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":45,"target":59,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":35,"target":52,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":49,"target":59,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":41,"target":45,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":23,"target":26,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":35,"target":48,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"GUA-04","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":37,"target":51,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":8,"target":48,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":22,"target":45,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":35,"target":53,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":47,"target":56,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":22,"target":25,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":34,"target":48,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":44,"target":49,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":48,"target":59,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":40,"target":49,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":39,"target":50,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":37,"target":45,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":38,"target":50,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":43,"target":55,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":21,"target":32,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":45,"target":58,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"GUA-05","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":43,"target":59,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":5,"target":26,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":13,"target":26,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":23,"target":26,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":21,"target":27,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":14,"target":16,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":22,"target":29,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":19,"target":24,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":25,"target":27,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":23,"target":26,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":18,"target":28,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":18,"target":28,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":26,"target":29,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":27,"target":31,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":13,"target":14,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":27,"target":30,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"GUA-06","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":20,"target":27,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":4,"target":25,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":11,"target":24,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":22,"target":29,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":19,"target":26,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":8,"target":13,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":20,"target":26,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":18,"target":25,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":23,"target":30,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":24,"target":29,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":21,"target":25,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":18,"target":25,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":30,"target":32,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":17,"target":25,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":12,"target":15,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":24,"target":31,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"GUA-07","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":28,"target":30,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":6,"target":31,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":12,"target":27,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":24,"target":28,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":25,"target":30,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":11,"target":15,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":16,"target":25,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":23,"target":27,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":26,"target":31,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":21,"target":25,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":24,"target":30,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":17,"target":24,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":19,"target":25,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":23,"target":32,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":13,"target":17,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":23,"target":28,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"GUA-08","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":23,"target":30,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":5,"target":31,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":14,"target":31,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":27,"target":30,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":19,"target":25,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":15,"target":17,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":20,"target":30,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":25,"target":31,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":20,"target":27,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":25,"target":29,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":19,"target":25,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":16,"target":25,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":22,"target":28,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":21,"target":31,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":15,"target":17,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":24,"target":31,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"GUA-09","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":24,"target":27,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":5,"target":30,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":12,"target":27,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":18,"target":27,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":24,"target":28,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":14,"target":17,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":23,"target":28,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":26,"target":30,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":22,"target":31,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":18,"target":24,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":23,"target":28,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":19,"target":28,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":18,"target":24,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":17,"target":24,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":12,"target":16,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":19,"target":28,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"GUA-10","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":22,"target":27,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":6,"target":31,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":13,"target":26,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":30,"target":32,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":25,"target":30,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":10,"target":16,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":23,"target":29,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":20,"target":30,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":23,"target":28,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":23,"target":30,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":26,"target":31,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":21,"target":28,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":21,"target":27,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":18,"target":25,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":9,"target":13,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":25,"target":29,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"GUA-11","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":18,"target":24,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":4,"target":27,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":13,"target":28,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":19,"target":25,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":21,"target":29,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":13,"target":17,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":24,"target":26,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":24,"target":31,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":21,"target":25,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":24,"target":31,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":18,"target":24,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":18,"target":31,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":27,"target":30,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":26,"target":30,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":10,"target":14,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":23,"target":27,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"GUA-12","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":28,"target":32,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":5,"target":26,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":15,"target":29,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":24,"target":29,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":23,"target":26,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":12,"target":13,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":26,"target":31,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":23,"target":32,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":23,"target":28,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":22,"target":26,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":21,"target":25,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":17,"target":26,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":26,"target":29,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":26,"target":32,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":13,"target":17,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":23,"target":31,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"GUA-13","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":27,"target":29,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":2,"target":13,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":5,"target":11,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":7,"target":10,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":8,"target":12,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":10,"target":12,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":8,"target":10,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":9,"target":13,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":9,"target":13,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":8,"target":10,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":8,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":11,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":11,"target":13,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":9,"target":11,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"GUA-14","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":12,"target":13,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":2,"target":11,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":6,"target":13,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":9,"target":11,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":9,"target":13,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":6,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":11,"target":13,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":9,"target":12,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":8,"target":11,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":11,"target":13,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":10,"target":13,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":9,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":8,"target":11,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":9,"target":11,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":4,"target":6,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":9,"target":11,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"GUA-15","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":10,"target":14,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":2,"target":11,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":4,"target":10,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":8,"target":11,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":11,"target":12,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":6,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":9,"target":11,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":10,"target":13,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":9,"target":14,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":10,"target":13,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":7,"target":11,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":10,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":12,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":9,"target":11,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":6,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":10,"target":13,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"GUA-16","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":8,"target":10,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":2,"target":12,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":5,"target":11,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":9,"target":12,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":8,"target":11,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":10,"target":13,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":7,"target":11,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":9,"target":10,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":9,"target":12,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":9,"target":12,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":10,"target":13,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":10,"target":12,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":9,"target":11,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":6,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":10,"target":13,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"GUA-17","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":9,"target":13,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":2,"target":13,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":5,"target":11,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":11,"target":13,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":10,"target":12,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":7,"target":8,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":8,"target":11,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":10,"target":13,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":10,"target":11,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":11,"target":13,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":11,"target":12,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":8,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":11,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":7,"target":11,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":6,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":11,"target":13,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"GUA-18","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":8,"target":11,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":2,"target":13,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":6,"target":13,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":9,"target":14,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":12,"target":13,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":6,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":8,"target":12,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":12,"target":13,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":10,"target":11,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":9,"target":11,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":10,"target":13,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":8,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":12,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":10,"target":13,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":7,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":8,"target":10,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"GUA-19","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":12,"target":14,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":2,"target":11,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":6,"target":13,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":9,"target":12,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":11,"target":13,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":6,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":10,"target":11,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":8,"target":11,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":10,"target":12,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":8,"target":13,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":10,"target":11,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":9,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":8,"target":11,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":10,"target":12,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":4,"target":6,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":11,"target":13,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"GUA-20","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":8,"target":11,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":2,"target":12,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":7,"target":13,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":8,"target":11,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":10,"target":12,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":10,"target":13,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":9,"target":11,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":9,"target":13,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":10,"target":12,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":10,"target":12,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":8,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":11,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":9,"target":11,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":6,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":8,"target":12,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"GUA-21","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":7,"target":11,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-VC500","product":"Vitamina C","onHand":3,"target":14,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":6,"target":13,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":9,"target":11,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-ALC70","product":"Alcohol 70%","onHand":9,"target":12,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":6,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":9,"target":10,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":11,"target":13,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":10,"target":11,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-MET850","product":"Metformina 850 mg","onHand":9,"target":13,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":10,"target":11,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-SAL100","product":"Suero oral","onHand":11,"target":14,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-GAS10","product":"Gasas estériles","onHand":8,"target":12,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-COND","product":"Preservativos","onHand":10,"target":14,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-JAB","product":"Jabón antibacterial","onHand":11,"target":13,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"GUA-22","city":"guayaquil","sku":"FE-MAG","product":"Magnesio + B6","onHand":11,"target":12,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":37,"target":44,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":36,"target":50,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":36,"target":45,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":40,"target":49,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":19,"target":29,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":38,"target":48,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":33,"target":49,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":44,"target":52,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":43,"target":49,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":48,"target":56,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":50,"target":59,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":48,"target":55,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":46,"target":59,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":27,"target":31,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":47,"target":55,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"QUI-01","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":41,"target":52,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":36,"target":56,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":52,"target":59,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":50,"target":56,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":38,"target":54,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":25,"target":33,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":36,"target":46,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":34,"target":52,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":30,"target":46,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":34,"target":46,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":37,"target":48,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":45,"target":54,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":36,"target":45,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":37,"target":46,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":20,"target":27,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":32,"target":46,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"QUI-02","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":46,"target":56,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":44,"target":47,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":39,"target":51,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":43,"target":59,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":40,"target":55,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":22,"target":31,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":51,"target":59,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":51,"target":58,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":45,"target":52,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":44,"target":59,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":45,"target":49,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":47,"target":55,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":44,"target":49,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":48,"target":59,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":25,"target":31,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":42,"target":49,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"QUI-03","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":45,"target":54,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":30,"target":44,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":37,"target":51,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":33,"target":51,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":39,"target":44,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":20,"target":27,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":36,"target":49,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":35,"target":49,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":35,"target":53,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":51,"target":56,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":42,"target":53,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":45,"target":50,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":47,"target":52,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":34,"target":48,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":23,"target":28,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":37,"target":46,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"QUI-04","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":36,"target":47,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":21,"target":31,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":26,"target":27,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":20,"target":27,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":21,"target":30,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":9,"target":13,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":18,"target":25,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":19,"target":29,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":18,"target":26,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":19,"target":26,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":19,"target":26,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":22,"target":24,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":25,"target":32,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":26,"target":32,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":14,"target":15,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":24,"target":29,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"QUI-05","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":18,"target":27,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":24,"target":31,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":18,"target":26,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":24,"target":30,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":28,"target":30,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":11,"target":14,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":25,"target":32,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":23,"target":29,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":19,"target":25,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":25,"target":27,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":16,"target":24,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":25,"target":29,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":30,"target":31,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":17,"target":24,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":14,"target":17,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":21,"target":29,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"QUI-06","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":23,"target":29,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":29,"target":30,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":26,"target":30,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":22,"target":30,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":24,"target":28,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":13,"target":17,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":20,"target":26,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":20,"target":28,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":22,"target":30,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":21,"target":28,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":25,"target":30,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":22,"target":31,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":28,"target":30,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":23,"target":28,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":12,"target":17,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":21,"target":28,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"QUI-07","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":21,"target":28,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":20,"target":26,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":25,"target":32,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":25,"target":30,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":24,"target":31,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":14,"target":18,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":22,"target":29,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":30,"target":32,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":23,"target":30,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":20,"target":25,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":19,"target":24,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":22,"target":29,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":21,"target":28,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":21,"target":27,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":11,"target":13,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":21,"target":26,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"QUI-08","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":25,"target":29,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":25,"target":27,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":23,"target":29,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":19,"target":29,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":28,"target":29,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":9,"target":13,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":21,"target":25,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":22,"target":28,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":21,"target":27,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":20,"target":25,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":21,"target":29,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":26,"target":32,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":26,"target":31,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":20,"target":25,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":14,"target":15,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":19,"target":26,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"QUI-09","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":23,"target":26,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":24,"target":31,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":18,"target":25,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":24,"target":30,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":24,"target":32,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":10,"target":14,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":21,"target":27,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":20,"target":27,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":21,"target":26,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":23,"target":25,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":22,"target":24,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":18,"target":28,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":26,"target":30,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":23,"target":32,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":9,"target":14,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":21,"target":25,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"QUI-10","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":24,"target":26,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":11,"target":13,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":9,"target":13,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":9,"target":11,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":7,"target":11,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":4,"target":6,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":12,"target":12,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":10,"target":12,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":11,"target":14,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":10,"target":11,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":10,"target":12,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":7,"target":10,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":12,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":12,"target":14,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":7,"target":10,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"QUI-11","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":10,"target":12,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":10,"target":13,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":8,"target":11,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":10,"target":12,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":12,"target":13,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":10,"target":11,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":12,"target":13,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":10,"target":11,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":9,"target":12,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":9,"target":12,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":9,"target":13,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":12,"target":14,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":10,"target":13,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":6,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":10,"target":12,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"QUI-12","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":12,"target":14,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":8,"target":10,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":9,"target":11,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":9,"target":12,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":11,"target":14,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":11,"target":13,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":8,"target":11,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":8,"target":12,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":10,"target":11,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":9,"target":11,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":10,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":13,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":8,"target":10,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":6,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":12,"target":13,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"QUI-13","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":9,"target":11,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":8,"target":11,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":12,"target":13,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":11,"target":13,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":10,"target":14,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":9,"target":12,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":9,"target":13,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":9,"target":12,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":10,"target":12,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":10,"target":12,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":8,"target":11,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":12,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":10,"target":11,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":6,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":8,"target":11,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"QUI-14","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":11,"target":13,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":9,"target":12,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":8,"target":11,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":11,"target":12,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":10,"target":11,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":9,"target":13,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":9,"target":11,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":12,"target":13,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":10,"target":12,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":9,"target":11,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":11,"target":13,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":12,"target":13,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":13,"target":14,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":6,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":9,"target":10,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"QUI-15","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":9,"target":10,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":10,"target":12,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":8,"target":11,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":8,"target":11,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":8,"target":12,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":6,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":9,"target":12,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":11,"target":14,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":9,"target":12,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":11,"target":13,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":9,"target":13,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":9,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":11,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":10,"target":12,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":6,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":9,"target":13,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"QUI-16","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":9,"target":13,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":9,"target":10,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":11,"target":13,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":9,"target":11,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":9,"target":12,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":5,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":9,"target":10,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":11,"target":13,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":10,"target":12,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":11,"target":13,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":7,"target":11,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":10,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":11,"target":13,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":10,"target":13,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":6,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":12,"target":13,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"QUI-17","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":11,"target":13,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-VC500","product":"Vitamina C","onHand":11,"target":13,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":7,"target":10,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":11,"target":12,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-ALC70","product":"Alcohol 70%","onHand":10,"target":13,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-SUN50","product":"Protector solar","onHand":6,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":9,"target":11,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":12,"target":13,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":8,"target":11,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-MET850","product":"Metformina 850 mg","onHand":8,"target":10,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":10,"target":12,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-SAL100","product":"Suero oral","onHand":10,"target":11,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":11,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-COND","product":"Preservativos","onHand":8,"target":11,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-DIAP","product":"Pañales","onHand":6,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-JAB","product":"Jabón antibacterial","onHand":8,"target":10,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"QUI-18","city":"quito","sku":"FE-MAG","product":"Magnesio + B6","onHand":9,"target":13,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-VC500","product":"Vitamina C","onHand":40,"target":50,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":39,"target":45,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":29,"target":46,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","onHand":43,"target":50,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-SUN50","product":"Protector solar","onHand":21,"target":25,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":38,"target":54,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":34,"target":45,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":10,"target":49,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","onHand":42,"target":54,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":35,"target":45,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-SAL100","product":"Suero oral","onHand":38,"target":49,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","onHand":43,"target":59,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-COND","product":"Preservativos","onHand":53,"target":57,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-DIAP","product":"Pañales","onHand":19,"target":26,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","onHand":33,"target":45,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"CUE-01","city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","onHand":39,"target":51,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-VC500","product":"Vitamina C","onHand":50,"target":54,"unitCostCents":4074}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":49,"target":56,"unitCostCents":776}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":41,"target":44,"unitCostCents":1164}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","onHand":35,"target":46,"unitCostCents":9215}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-SUN50","product":"Protector solar","onHand":16,"target":25,"unitCostCents":75660}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":38,"target":55,"unitCostCents":1746}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":42,"target":45,"unitCostCents":2134}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":13,"target":58,"unitCostCents":1552}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","onHand":52,"target":60,"unitCostCents":1358}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":44,"target":54,"unitCostCents":2716}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-SAL100","product":"Suero oral","onHand":43,"target":54,"unitCostCents":3395}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","onHand":36,"target":48,"unitCostCents":6208}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-COND","product":"Preservativos","onHand":48,"target":54,"unitCostCents":20370}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-DIAP","product":"Pañales","onHand":25,"target":28,"unitCostCents":86330}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","onHand":40,"target":53,"unitCostCents":4365}
+{"asOf":1791478800000,"branchCode":"CUE-02","city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","onHand":35,"target":47,"unitCostCents":6596}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-VC500","product":"Vitamina C","onHand":21,"target":26,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":20,"target":26,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":23,"target":28,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","onHand":21,"target":27,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-SUN50","product":"Protector solar","onHand":14,"target":16,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":30,"target":31,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":23,"target":30,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":6,"target":27,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","onHand":20,"target":26,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":19,"target":29,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-SAL100","product":"Suero oral","onHand":30,"target":32,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","onHand":25,"target":32,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-COND","product":"Preservativos","onHand":22,"target":30,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-DIAP","product":"Pañales","onHand":12,"target":15,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","onHand":19,"target":26,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"CUE-03","city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","onHand":24,"target":31,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-VC500","product":"Vitamina C","onHand":16,"target":26,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":23,"target":28,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":20,"target":26,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","onHand":20,"target":26,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-SUN50","product":"Protector solar","onHand":11,"target":15,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":23,"target":31,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":18,"target":26,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":7,"target":31,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","onHand":22,"target":29,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":20,"target":25,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-SAL100","product":"Suero oral","onHand":21,"target":24,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","onHand":27,"target":30,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-COND","product":"Preservativos","onHand":23,"target":27,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-DIAP","product":"Pañales","onHand":11,"target":15,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","onHand":25,"target":29,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"CUE-04","city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","onHand":25,"target":29,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-VC500","product":"Vitamina C","onHand":25,"target":29,"unitCostCents":4200}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":21,"target":24,"unitCostCents":800}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":29,"target":32,"unitCostCents":1200}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","onHand":22,"target":28,"unitCostCents":9500}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-SUN50","product":"Protector solar","onHand":13,"target":17,"unitCostCents":78000}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":22,"target":26,"unitCostCents":1800}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":24,"target":32,"unitCostCents":2200}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":6,"target":27,"unitCostCents":1600}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","onHand":21,"target":26,"unitCostCents":1400}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":18,"target":25,"unitCostCents":2800}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-SAL100","product":"Suero oral","onHand":28,"target":32,"unitCostCents":3500}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","onHand":22,"target":28,"unitCostCents":6400}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-COND","product":"Preservativos","onHand":19,"target":25,"unitCostCents":21000}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-DIAP","product":"Pañales","onHand":14,"target":14,"unitCostCents":89000}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","onHand":19,"target":28,"unitCostCents":4500}
+{"asOf":1791478800000,"branchCode":"CUE-05","city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","onHand":22,"target":27,"unitCostCents":6800}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-VC500","product":"Vitamina C","onHand":9,"target":11,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":9,"target":12,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":12,"target":13,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","onHand":9,"target":11,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-SUN50","product":"Protector solar","onHand":6,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":10,"target":13,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":10,"target":12,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":3,"target":13,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","onHand":8,"target":11,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":8,"target":10,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-SAL100","product":"Suero oral","onHand":11,"target":13,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","onHand":10,"target":13,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-COND","product":"Preservativos","onHand":12,"target":13,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-DIAP","product":"Pañales","onHand":6,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","onHand":11,"target":12,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"CUE-06","city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","onHand":10,"target":12,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-VC500","product":"Vitamina C","onHand":10,"target":12,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":9,"target":13,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":8,"target":10,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","onHand":11,"target":14,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-SUN50","product":"Protector solar","onHand":6,"target":7,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":8,"target":11,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":9,"target":12,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":3,"target":11,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","onHand":9,"target":12,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":10,"target":13,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-SAL100","product":"Suero oral","onHand":9,"target":10,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","onHand":9,"target":13,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-COND","product":"Preservativos","onHand":11,"target":13,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-DIAP","product":"Pañales","onHand":6,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","onHand":8,"target":10,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"CUE-07","city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","onHand":10,"target":12,"unitCostCents":7208}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-VC500","product":"Vitamina C","onHand":8,"target":12,"unitCostCents":4452}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-PARA500","product":"Paracetamol 500 mg","onHand":10,"target":11,"unitCostCents":848}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-IBU400","product":"Ibuprofeno 400 mg","onHand":11,"target":12,"unitCostCents":1272}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-ALC70","product":"Alcohol 70%","onHand":11,"target":13,"unitCostCents":10070}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-SUN50","product":"Protector solar","onHand":7,"target":8,"unitCostCents":82680}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-LOR10","product":"Loratadina 10 mg","onHand":10,"target":13,"unitCostCents":1908}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-OMEP20","product":"Omeprazol 20 mg","onHand":10,"target":12,"unitCostCents":2332}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-LOS50","product":"Losartán 50 mg","onHand":3,"target":13,"unitCostCents":1696}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-MET850","product":"Metformina 850 mg","onHand":12,"target":14,"unitCostCents":1484}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-AMX500","product":"Amoxicilina 500 mg","onHand":12,"target":13,"unitCostCents":2968}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-SAL100","product":"Suero oral","onHand":10,"target":12,"unitCostCents":3710}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-GAS10","product":"Gasas estériles","onHand":10,"target":12,"unitCostCents":6784}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-COND","product":"Preservativos","onHand":8,"target":11,"unitCostCents":22260}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-DIAP","product":"Pañales","onHand":5,"target":7,"unitCostCents":94340}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-JAB","product":"Jabón antibacterial","onHand":10,"target":13,"unitCostCents":4770}
+{"asOf":1791478800000,"branchCode":"CUE-08","city":"cuenca","sku":"FE-MAG","product":"Magnesio + B6","onHand":8,"target":12,"unitCostCents":7208}
