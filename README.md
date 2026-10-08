@@ -1,6 +1,6 @@
 # Sales Coworker · Primera Línea Farmaenlace
 
-[Repositorio](https://github.com/sevaco14/farmaenlaceHT) · [Demo AWS](https://d3d0kckkr3hkmr.cloudfront.net) · [Verificación de entrega](docs/VERIFICACION_AWS.md)
+[Repositorio](https://github.com/sevaco14/farmaenlaceHT) · [Demo AWS](https://d3d0kckkr3hkmr.cloudfront.net) · [PDF de entrega](output/pdf/Readme.pdf) · [Verificación de entrega](docs/VERIFICACION_AWS.md)
 
 **De señales operativas dispersas a una decisión concreta, antes de perder el stock y la venta.**
 
