@@ -35,6 +35,7 @@ const recommendationResult = v.object({
   decidedBy: v.union(v.string(), v.null()),
   restockUnits: v.union(v.number(), v.null()),
   promoDays: v.union(v.number(), v.null()),
+  createdAt: v.number(),
 });
 
 const CITIES = ["guayaquil", "quito", "cuenca"] as const;
@@ -46,6 +47,7 @@ async function actorOf(ctx: QueryCtx | MutationCtx) {
 
 function toRecommendation(doc: {
   _id: Id<"recommendations">;
+  _creationTime: number;
   city: string;
   product: string;
   headline: string;
@@ -67,6 +69,7 @@ function toRecommendation(doc: {
     decidedBy: doc.decidedBy,
     restockUnits: doc.restockUnits ?? null,
     promoDays: doc.promoDays ?? null,
+    createdAt: doc._creationTime,
   };
 }
 

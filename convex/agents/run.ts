@@ -21,12 +21,6 @@ const agentOut = v.object({
   rationale: v.string(),
 });
 
-const CITY_PRODUCT: Record<string, string> = {
-  guayaquil: "Vitamina C",
-  quito: "Protector solar",
-  cuenca: "Alcohol 70%",
-};
-
 const citySkuSchema = {
   type: "object",
   properties: {
@@ -139,7 +133,7 @@ export const analyzeCity = action({
     const city = args.city.toLowerCase();
     const resolved = await ctx.runQuery(internal.agentData.resolveSku, {
       city,
-      product: args.product ?? CITY_PRODUCT[city],
+      product: args.product,
       sku: args.sku,
     });
 
@@ -211,26 +205,24 @@ export const analyzeCity = action({
       ];
     } else {
       try {
-        const [waOut, invOut, proOut] = await Promise.all([
-          runAgentWithTools({
-            system: WHATSAPP_INSTRUCTIONS,
-            userTask,
-            tools: whatsappTools(),
-            executeTool,
-          }),
-          runAgentWithTools({
-            system: INVENTARIO_INSTRUCTIONS,
-            userTask,
-            tools: inventarioTools(),
-            executeTool,
-          }),
-          runAgentWithTools({
-            system: PROMOCION_INSTRUCTIONS,
-            userTask,
-            tools: promoTools(),
-            executeTool,
-          }),
-        ]);
+        const waOut = await runAgentWithTools({
+          system: WHATSAPP_INSTRUCTIONS,
+          userTask,
+          tools: whatsappTools(),
+          executeTool,
+        });
+        const invOut = await runAgentWithTools({
+          system: INVENTARIO_INSTRUCTIONS,
+          userTask,
+          tools: inventarioTools(),
+          executeTool,
+        });
+        const proOut = await runAgentWithTools({
+          system: PROMOCION_INSTRUCTIONS,
+          userTask,
+          tools: promoTools(),
+          executeTool,
+        });
         agents = [
           { role: "whatsapp", ...waOut },
           { role: "inventario", ...invOut },

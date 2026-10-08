@@ -1,5 +1,6 @@
 import { v } from "convex/values";
 import { internalQuery } from "./_generated/server";
+import type { QueryCtx } from "./_generated/server";
 
 const citySkuArgs = {
   city: v.string(),
@@ -8,6 +9,13 @@ const citySkuArgs = {
 
 const AS_OF = Date.parse("2026-10-08T12:00:00-05:00");
 const DAY_MS = 86_400_000;
+
+async function liveRow(ctx: QueryCtx, city: string, sku: string) {
+  return await ctx.db
+    .query("liveStock")
+    .withIndex("by_city_and_sku", (q) => q.eq("city", city).eq("sku", sku))
+    .unique();
+}
 
 export const resolveSku = internalQuery({
   args: {
@@ -28,6 +36,20 @@ export const resolveSku = internalQuery({
       return { sku: args.sku, product: row?.name ?? args.product ?? args.sku };
     }
     const product = args.product?.trim();
+    const live = await ctx.db
+      .query("liveStock")
+      .withIndex("by_city", (q) => q.eq("city", args.city))
+      .take(20);
+    if (live.length > 0) {
+      const named = product
+        ? live.find((row) => row.product.toLowerCase() === product.toLowerCase())
+        : undefined;
+      const hottest = [...live].sort(
+        (a, b) => b.waRate / b.baseRate * (1 - b.onHand / b.target) - a.waRate / a.baseRate * (1 - a.onHand / a.target),
+      )[0];
+      const chosen = named ?? hottest;
+      return { sku: chosen.sku, product: chosen.product };
+    }
     if (product) {
       const catalog = await ctx.db.query("catalogItems").withIndex("by_sku").take(80);
       const match =
@@ -58,6 +80,28 @@ export const whatsappMetrics = internalQuery({
     newsTitles: v.array(v.string()),
   }),
   handler: async (ctx, args) => {
+    const live = await liveRow(ctx, args.city, args.sku);
+    if (live) {
+      const events = await ctx.db
+        .query("liveEvents")
+        .withIndex("by_city_and_at", (q) => q.eq("city", args.city))
+        .order("desc")
+        .take(40);
+      return {
+        city: args.city,
+        sku: args.sku,
+        product: live.product,
+        waRecent7: Math.round(live.waRate * 6),
+        waPrior21: Math.round(live.baseRate * 18),
+        lift: Math.round((live.waRate / live.baseRate) * 100) / 100,
+        sampleMessages: events
+          .filter((row) => row.code === "WA" && row.product === live.product)
+          .slice(0, 5)
+          .map((row) => row.text),
+        newsTitles: live.trend ? [live.trend] : [],
+      };
+    }
+
     const fact = await ctx.db
       .query("insightFacts")
       .withIndex("by_city_and_sku", (q) =>
@@ -138,6 +182,19 @@ export const inventoryMetrics = internalQuery({
     ),
   }),
   handler: async (ctx, args) => {
+    const live = await liveRow(ctx, args.city, args.sku);
+    if (live) {
+      return {
+        city: args.city,
+        sku: args.sku,
+        product: live.product,
+        onHand: live.onHand,
+        target: live.target,
+        stockPct: Math.round((100 * live.onHand) / live.target),
+        criticalBranches: [],
+      };
+    }
+
     const fact = await ctx.db
       .query("insightFacts")
       .withIndex("by_city_and_sku", (q) =>
@@ -207,6 +264,33 @@ export const promoMetrics = internalQuery({
     ),
   }),
   handler: async (ctx, args) => {
+    const live = await liveRow(ctx, args.city, args.sku);
+    if (live) {
+      const clock = await ctx.db
+        .query("liveClock")
+        .withIndex("by_key", (q) => q.eq("key", "main"))
+        .unique();
+      const active = live.promoUntil > (clock?.tick ?? 0) || live.seasonPromo;
+      return {
+        city: args.city,
+        sku: args.sku,
+        product: live.product,
+        activePromo: active,
+        promos: active
+          ? [
+              {
+                promoId: `LIVE-${args.city}-${args.sku}`,
+                program: live.seasonPromo ? "Temporada" : "SmartClub local",
+                discountPct: live.seasonPromo ? 10 : 15,
+                active: true,
+                startsAt: AS_OF,
+                endsAt: AS_OF + 7 * DAY_MS,
+              },
+            ]
+          : [],
+      };
+    }
+
     const fact = await ctx.db
       .query("insightFacts")
       .withIndex("by_city_and_sku", (q) =>

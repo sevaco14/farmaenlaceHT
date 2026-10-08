@@ -542,7 +542,14 @@ export const world = query({
       }),
     ),
     events: v.array(
-      v.object({ at: v.number(), city: v.string(), code: codeValidator, product: v.string(), text: v.string() }),
+      v.object({
+        id: v.id("liveEvents"),
+        simTime: v.number(),
+        city: v.string(),
+        code: codeValidator,
+        product: v.string(),
+        text: v.string(),
+      }),
     ),
   }),
   handler: async (ctx) => {
@@ -570,7 +577,7 @@ export const world = query({
         })),
       });
     }
-    const events = await ctx.db.query("liveEvents").withIndex("by_at").order("desc").take(16);
+    const events = await ctx.db.query("liveEvents").withIndex("by_at").order("desc").take(48);
     return {
       clock: clock
         ? {
@@ -581,7 +588,14 @@ export const world = query({
           }
         : null,
       cities,
-      events: events.map((row) => ({ at: row.at, city: row.city, code: row.code, product: row.product, text: row.text })),
+      events: events.map((row) => ({
+        id: row._id,
+        simTime: SIM_START + row.tick * SIM_MINUTES_PER_TICK * 60_000,
+        city: row.city,
+        code: row.code,
+        product: row.product,
+        text: row.text,
+      })),
     };
   },
 });
